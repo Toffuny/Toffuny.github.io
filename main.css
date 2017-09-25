@@ -5,11 +5,11 @@ body {
   h1 {
    color: #ffffff;
    text-align: center;
-   font: italic 200% arial ;
+   font: 200% arial ;
   }
 
   p {
-   color: #33a8ff;
+   color: #ffffff;
    text-align: center;
    border: 3px #ff008d;
   }
