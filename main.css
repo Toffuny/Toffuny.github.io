@@ -1,19 +1,7 @@
 body {
-   background-color: #000000;
-  }
-
-  h1 {
-   color: #ffffff;
-   text-align: center;
-   font: 200% arial ;
-  }
-
-  p {
-   color: #ffffff;
-   text-align: center;
-   border: 3px #ff008d;
-  }
-
-a {
-color: #C5E1E5;
+  margin: 0 auto;
+  max-width: 50em;
+}
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
 }
