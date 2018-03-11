@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tiffany's Work</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type"text/css" href="work.css">
+<link rel="icon" href="logotransparent.png" type"image/png" sizes="16x16">
+<head>
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+  }
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  </script>
+</head>
+
+<body>
+<div class="smallcolumn">
+<ul>
+    <li><a href="#digital">Digital</a></li>
+    <li><a href="#coding">Coding</a></li>
+    <li><a href="#3dvr">3D/VR</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#photo">Photography</a></li>
+    <li><a href="#video">Video</a></li>
+</ul>
+</div>
+
+<!-- <div class="column2">
+<img src="ActualWork/Chrissyslowandabitfast.gif" />
+<img src="ActualWork/Danver2.gif" />
+<img src="ActualWork/Willver2.gif" />
+</div> -->
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="bigcolumn">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+<h1 id="digital"> Digital</h1>
+
+<!-- Photo grid -->
+
+  <div class="row">
+    <div class="columns">
+      <button class="collapsible">Open Collapsible</button>
+      <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+      <img src="Chrissy1.png" id="myImg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+      <img src="Danver2.png" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+      <img src="Willver2.png" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+
+
+<br>
+
+<h1 id="coding">Coding</h1>
+<h2>Note: these are all linked images that will take you to the site</h2>
+
+    <a href="/itsatv"><img src="itsatv.png" style="width:100%" alt="ItsaTv title page"></a>
+    <!--<img src="##" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+    <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful"> -->
+
+
+<br>
+<h1 id="3dvr">3D/VR</h1>
+
+      <img src="ActualWork/rendertoposter.png" height="400" width="650" alt"prosthetic" />
+
+<br>
+<br>
+
+<h1 id="photo">Photo</h1>
+      <img src="KEEP.jpg" height="400" width="600" alt="ferris wheel" />
+      <img src="fozzie.jpg" height="400" width="600" alt="Fozzie" />
+      <img src="ActualWork/ada3.jpg" alt="Jonathan" />
+      <img src="ActualWork/insta1.jpg" alt="Ada" />
+
+<br>
+
+<h1 id="video">Video</h1>
+   <iframe src="https://player.vimeo.com/video/239482647" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/235285665" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+   <iframe src="https://player.vimeo.com/video/235290976" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+  <!-- Pagination
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div> -->
+</div>
+</div>
+
+<!-- Modal for full size images on click -->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" />
+  <div id="caption"></div>
+</div>
+
+<div class="show">
+  <div class="overlay"></div>
+  <div class="img-show">
+    <span>X</span>
+    <img src="">
+  </div>
+</div>
+
+</body>
+</html>

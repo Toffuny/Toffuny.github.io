@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tiffany's Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Fascinate" rel="stylesheet">
+<style>
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-bos;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FFFFFF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #000000;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style></head>
+<body>
+  <center><h3>Contact Form</h3></center>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" name="firstname" placeholder="First name..">
+
+      <label for="lastname">Last Name</label>
+      <input type="text" id="lastname" name="lastname" placeholder="Last name..">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject">
+
+      <label for="reason">Reason for contacting</label>
+      <select id="reason" name="whythough">
+        <option value="none">None</option>
+        <option value="business">Business</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="two">Two or more listed reasons (specify at the beginning of message)</option>
+        <option value="all">All of the above</option>
+      </select>
+
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <form method="post" action="mailto:mintygloopy@gmail.com"><input type="submit" value="Send Email" />
+    </form>
+  </div>
+
+  </body>
+  </html>
