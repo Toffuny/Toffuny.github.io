@@ -6,38 +6,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type"text/css" href="work.css">
 <link rel="icon" href="logotransparent.png" type"image/png" sizes="16x16">
 <head>
   <script>
-  // Get the modal
-  var modal = document.getElementById('myModal');
-
-  // Get the image and insert it inside the modal - use its "alt" text as a caption
-  var img = document.getElementById('myImg');
-  var modalImg = document.getElementById("img01");
-  var captionText = document.getElementById("caption");
-  img.onclick = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-  }
-
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-      modal.style.display = "none";
-  }
 
   </script>
 </head>
 
 <body>
-<div class="smallcolumn">
+<!--<div class="smallcolumn">
 <ul>
+    <li><a href="index.html">Home Page</a></li>
     <li><a href="#digital">Digital</a></li>
     <li><a href="#coding">Coding</a></li>
     <li><a href="#3dvr">3D/VR</a></li>
@@ -45,66 +27,150 @@
     <li><a href="#photo">Photography</a></li>
     <li><a href="#video">Video</a></li>
 </ul>
-</div>
+</div> -->
 
 <!-- <div class="column2">
 <img src="ActualWork/Chrissyslowandabitfast.gif" />
 <img src="ActualWork/Danver2.gif" />
 <img src="ActualWork/Willver2.gif" />
 </div> -->
-</div>
+
+<header>
+<h1>Portfolio</h1>
+<p class="mini">Video links are located below</p>
+</header>
 
 <!-- !PAGE CONTENT! -->
-<div class="bigcolumn">
-
-  <!-- Push down content on small screens -->
-  <div class="w3-hide-large" style="margin-top:83px"></div>
-
-<h1 id="digital"> Digital</h1>
-
-<!-- Photo grid -->
+<!-- <div class="bigcolumn"> -->
 
   <div class="row">
-    <div class="columns">
-      <button class="collapsible">Open Collapsible</button>
-      <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      </div>
-      <img src="Chrissy1.png" id="myImg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
-      <img src="Danver2.png" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-      <img src="Willver2.png" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+    <div class="column">
+      <!--<div class="Portal"></div>-->
+      <a href="#openModal1"><img src="ActualWork/rendertoposter.png" style="width:100%"></a>
+      <div id="openModal1" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/rendertoposter.png" height="400" />
+           <br>
+           <h3>Water Arm (2018)</h3>
+           <p>This prosthetic attachs onto one's dislocated shoulder to serve as an upgraded
+            replacement to someone's old arm. This arm has the ability to pull water molecules from the
+            body and use them to generate water, ice, or steam. The panel located on the upper arm
+            shows the user's current water levels and automatically stops drawing molecules.</p>
+   </div></div>
+      <a href="#openModal"><img src="Chrissy1.png" style="width:100%"></a>
+      <div id="openModal" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/Chrissyslowandabitfast.gif" height="640" width="500"/ >
+           <h3>Chrissy (2017)</h3>
+           <p>The first of three posters dedicated
+           to pop rock band Against the Current. Depicted is singer Chrissy Costanza. <br><br>
+           The blue and red overlays crossing each other as if it's echoing off her body. The colors are a nod to 3D technology
+           while the actions suggest that the singer's voice reaches us (the viewers).</p>
+   </div></div>
+      <a href="#openModal2"><img src="ActualWork/insta1.jpg" style="width:100%"></a>
+      <div id="openModal2" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/insta1.jpg" height="600">
+           <p>2016</p>
+   </div></div>
+      <!-- <img src="Chrissy1.png" style="width:100%">
+      <img src="Chrissy1.png" style="width:100%">
+      <img src="Chrissy1.png" style="width:100%"> -->
+    </div>
 
+    <div class="column">
+      <a href="#openModal3"><img src="Danver2.png" style="width:100%"></a>
+      <div id="openModal3" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/Danver2.gif" height="640" width="500">
+           <h3>Dan (2018)</h3>
+           <p>The second of three posters dedicated
+           to pop rock band Against the Current. Depicted is guitarist Dan Gow. <br><br>
+           The poster changes colors and scattered glitch lines are shown as if it's feedback from an amplifier.</p>
+      </div></div>
+      <a href="#openModal4"><img src="KEEP.jpg" style="width:100%"></a>
+      <div id="openModal4" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="KEEP.jpg" height="500">
+           <p>2016</p>
+      </div></div>
+      <a href="#openModal5"><img src="ActualWork/stilllife.jpeg" style="width:100%"></a>
+      <div id="openModal5" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/stilllife.jpeg" height="400">
+           <h3>The Memory: Jonghyun (2018)</h3><br>
+           <p>A candle, a diamond, a letter, and a rose. In memory of Jonghyun</p>
+      </div></div>
+      <a href="#openModal6"><img src="ActualWork/Truong - 3 (1).png" style="width:100%"></a>
+      <div id="openModal6" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/Truong - 3 (1).png" height="600">
+           <h3>Fly (2014)</h3><br>
+      </div></div>
+      <!-- <img src="ActualWork/rendertoposter.png" style="width:100%">
+      <img src="/w3images/underwater.jpg" style="width:100%"> -->
+    </div>
 
-<br>
+    <div class="column">
+      <a href="#openModal7"><img src="Willver2.png" style="width:100%"></a>
+      <div id="openModal7" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/Willver2.gif" height="640" width="500" />
+           <h3>Will (2017)</h3>
+           <p>The last of three posters dedicated
+           to pop rock band Against the Current. Depicted is drummer Will Ferri. <br><br>
+           The blurriness comes as a reaction to each drum beat.</p>
+      </div></div>
+      <a href="#openModal8"><img src="ActualWork/guns.jpg" style="width:100%"></a>
+      <div id="openModal8" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/guns.jpg" height="600">
+           <h3>2017</h3>
+      </div></div>
+      <a href="#openModal9"><img src="Truong - 2.jpg" style="width:100%"></a>
+      <div id="openModal9" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="Truong - 2.jpg" height="600">
+           <h3>2017</h3>
+      </div></div>
+      <!-- <img src="/w3images/paris.jpg" style="width:100%">
+      <img src="/w3images/nature.jpg" style="width:100%">
+      <img src="/w3images/mist.jpg" style="width:100%">
+      <img src="/w3images/paris.jpg" style="width:100%"> -->
+    </div>
+    <div class="column">
+      <a href="/itsatv"><img src="itsatv.png" style="width:100%"></a>
+      <a href="#openModal10"><img src="ActualWork/ada3.jpg" style="width:100%"></a>
+      <div id="openModal10" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/ada3.jpg" height="600">
+           <h3>2017</h3>
+      </div></div>
+      <a href="#openModal14"><img src="ActualWork/heart-01.png" style="width:100%">
+      <div id="openModal14" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="ActualWork/heart-01.png" width="640" height="340">
+           <h3>2017</h3>
+      </div></div>
+      <a href="#openModal12"><img src="fozzie.jpg" style="width:100%"></a>
+      <div id="openModal12" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="fozzie.jpg" width="640" height="340">
+           <h3>2016</h3>
+      </div></div>
+      <a href="#openModal11"><img src="wacky.png" style="width:100%"></a>
+      <div id="openModal11" class="modalDialog">
+          <div>	<a href="#close" title="Close" class="close">X</a>
+           <img src="wacky.png">
+           <h3>Wacky Towns Logo (2017)</h3>
+           <p>I designed the logo for animated web series "Wacky Towns."<br>
+            The trailer below:
+           </p>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/dPvSOQg53mQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div></div>
+    </div>
+  <!-- </div>
 
-<h1 id="coding">Coding</h1>
-<h2>Note: these are all linked images that will take you to the site</h2>
-
-    <a href="/itsatv"><img src="itsatv.png" style="width:100%" alt="ItsaTv title page"></a>
-    <!--<img src="##" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
-    <img src="/w3images/girl.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful"> -->
-
-
-<br>
-<h1 id="3dvr">3D/VR</h1>
-
-      <img src="ActualWork/rendertoposter.png" height="400" width="650" alt"prosthetic" />
-
-<br>
-<br>
-
-<h1 id="photo">Photo</h1>
-      <img src="KEEP.jpg" height="400" width="600" alt="ferris wheel" />
-      <img src="fozzie.jpg" height="400" width="600" alt="Fozzie" />
-      <img src="ActualWork/ada3.jpg" alt="Jonathan" />
-      <img src="ActualWork/insta1.jpg" alt="Ada" />
-
-<br>
-
-<h1 id="video">Video</h1>
-   <iframe src="https://player.vimeo.com/video/239482647" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-   <iframe src="https://player.vimeo.com/video/235285665" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-   <iframe src="https://player.vimeo.com/video/235290976" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
   <!-- Pagination
   <div class="w3-center w3-padding-32">
@@ -120,30 +186,32 @@
 </div>
 </div>
 
-<!-- Modal for full size images on click -->
-  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption"></p>
+
+<br><br>
+<div class="video-grid">
+    <div class="video-item">
+      <div class="video-wrap">
+        <iframe src="https://player.vimeo.com/video/239482647" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="video-item">
+      <div class="video-wrap">
+        <iframe src="https://player.vimeo.com/video/235285665" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="video-item">
+      <div class="video-wrap">
+        <iframe src="https://player.vimeo.com/video/235290976" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="video-item">
+      <div class="video-wrap">
+    <iframe src="https://player.vimeo.com/video/260680023" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01" />
-  <div id="caption"></div>
-</div>
-
-<div class="show">
-  <div class="overlay"></div>
-  <div class="img-show">
-    <span>X</span>
-    <img src="">
-  </div>
-</div>
 
 </body>
 </html>
