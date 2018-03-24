@@ -167,7 +167,7 @@ hover event trigger
 
 
 #openModal, #openModal1, #openModal2, #openModal3, #openModal7, #openModal10
- #openModal14 img  {
+, #openModal15, #openModal16, #openModal17, #openModal19 img  {
     width: 500px;
     height:auto;
 }
@@ -180,6 +180,10 @@ hover event trigger
 #openModal6, #openModal9, #openModal11 img {
   width: 700px;
   height: auto;
+}
+
+#openModal14, #openModal18 img {
+  width:400px;
 }
 
 .close {
