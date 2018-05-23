@@ -3,7 +3,6 @@ body{
   float: none;
   margin: auto;
 }
-
 #portfolio {
     margin: 1rem 0;
     -webkit-column-count: 3;
@@ -97,6 +96,7 @@ p:hover {
 
 
 
+
 .image {
   opacity: 1;
   display: block;
@@ -125,16 +125,69 @@ p:hover {
   opacity: 1;
 }
 
-.text {
-  background-color: #4CAF50;
+.text2 {
+  background-color: #C70039;
   color: white;
-  font-size: 5px;
-  padding: 300px 150px;
+  font-size: 10px;
+  padding: 30px 40px;
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: #FF5733;
   color: white;
-  font-size: 5px;
+  font-size: 10px;
   padding: 15px 32px;
+}
+
+
+
+/* HOVER OVER GIF
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+} */
+
+
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: 10.2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
 }
