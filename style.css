@@ -1,0 +1,92 @@
+body{
+  /* margin: 0 auto; */
+  max-width: 50em;
+  /* margin-top: 25px;
+  margin-left: 25px;
+  margin-right:25px; */
+  margin: auto;
+  /* background-image: deskbg.jpg; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 45%;
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.chinese {
+font-family: 'Noto Serif JP', sans-serif;
+}
+
+.handwritingch {
+  font-family: 'Kosugi Maru', sans-serif;
+  /* margin:35px; */
+}
+
+#english:hover {
+  display: block;
+}
+
+/* .handwritingch:hover + #english {
+    display: block;
+} */
+
+.button {
+  padding: 10px 5px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #ff0019;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px #999;
+}
+
+.button:hover {background-color: #ff0019}
+
+.button:active {
+  background-color: #ff0019;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#underlined:hover {
+  background-color:yellow;
+}
+
+del:hover {
+  text-decoration-color: red;
+}
+
+ins {
+  display: none;
+}
+
+del:hover + ins {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
+  color: red;
+  position:absolute;
+  transform:rotate(-10deg);
+  margin-left: -20px;
+  margin-top: -40px;
+}

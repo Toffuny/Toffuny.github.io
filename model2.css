@@ -1,0 +1,104 @@
+/* .image {
+  display: grid;
+  height: 100%;
+} */
+
+.center-fit {
+ max-width: 100%;
+ max-height: 100vh;
+ margin: auto;
+}
+
+.column {
+    float: right;
+    width: 49%;
+    /* padding: 2px; */
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+ .container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: 60px;
+    width: 400px;
+}
+
+.darker {
+    border-color: #ccc;
+    background-color: #ddd;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #999;
+}
+
+.button {
+  transition-duration: 0.4s;
+  background: #720000;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+}
+
+button.button:hover {
+  background: #990000
+}
+
+#cboxLoadedContent {
+  padding: 10px;
+  background: #fffff0;
+}
+
+#modal-content {
+  display: none;
+}
+
+#modal-content label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#modal-content input {
+  width: 95%;
+}
