@@ -25,10 +25,10 @@ p{
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Open Sans', sans-serif;
   font-size:14px;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
-a{
+/* a{
   text-decoration:none;
   -webkit-transition: all 0.2s ease-in;
 	-moz-transition: all 0.2s ease-in;
@@ -40,6 +40,26 @@ a{
 
 a:focus {
   outline:none;
+} */
+
+/* unvisited link */
+a:link {
+  color: #c6e1d8;
+}
+
+/* mouse over link */
+a:hover {
+  color: #efad1f;
+}
+
+/* selected link */
+a:active {
+  color: #b51f2e;
+}
+
+/* no underline */
+a {
+  text-decoration: none;
 }
 
 strong{
@@ -732,4 +752,17 @@ RESPONSIVE IMAGES AND VIDEOS
     height:100%;
     width:100%;
     position:absolute;
+}
+
+/*
+CV
+*/
+#cv {
+  p: 10px;
+}
+
+/* MY OWN STYLING */
+
+.shift{
+  padding-left: 280px;
 }
