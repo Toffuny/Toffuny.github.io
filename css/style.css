@@ -352,11 +352,14 @@ CONTENT
 **************************
 */
 
+
+
+
 .hero-image{
   position:relative;
   width:100%;
   top:0;
-  height:400px;
+  height:40px;
   background: url('../img/full/full.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -398,15 +401,18 @@ CONTENT
 
 .content .text-intro{
   width: 1140px;
-  margin-top: 150px;
-  margin: 150px auto 0;
+  /* margin-top: 150px; */
+  /* margin: 150px auto 0; */
+    margin-top: -150px;
+    margin-left: 100px;
+  position: relative;
 }
 
 .content .text-intro h1{
   font-size:43px;
   width:40%;
   text-transform:uppercase;
-  color:#000000;
+  color:#ffffff;
   font-weight:900;
   line-height:70px;
 }
