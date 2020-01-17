@@ -168,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["simple ", "creative ", "interdisciplinary ", "lowkey still trying to find myself "],
+            strings: ["simple ", "creative ", "interdisciplinary "],
             typeSpeed: 100,
             backDelay: 500,
             loop: false,
