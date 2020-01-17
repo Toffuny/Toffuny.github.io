@@ -168,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["portfolio ", "interdisciplinary work"],
+            strings: ["portfolio ", "interdisciplinary work", "multimedianess-ish", "place"],
             typeSpeed: 100,
             backDelay: 500,
             loop: false,
