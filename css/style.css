@@ -18,6 +18,10 @@
    font-smoothing: antialiased;
  }
 
+ #BigTitle {
+   color: #d12437;
+ }
+
  h1,
  h2,
  h3,
@@ -26,7 +30,8 @@
  h6 {
    margin: 0;
    color: #081624;
-   font-weight: 700;
+   font-weight: 600;
+   font-family: "Big John";
  }
 
  h1 {
@@ -61,6 +66,10 @@
 
  img {
    max-width: 100%;
+ }
+
+ strong {
+   color: #d12437;
  }
 
  input:focus,
@@ -493,7 +502,7 @@
    text-transform: uppercase;
    font-weight: 700;
    padding: 10px 0;
-   color: #081624;
+   color: #efae20;
    margin-left: 37px;
  }
 
@@ -761,7 +770,7 @@
   ---------------------*/
 
  .footer-section {
-   background: #222222;
+   background: #000000;
  }
 
  .footer-text {
@@ -806,7 +815,7 @@
    font-size: 13px;
    font-weight: 700;
    font-style: italic;
-   color: #515151;
+   color: #ffffff;
    margin-top: -20px;
    padding-left: 15px;
  }
