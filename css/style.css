@@ -18,9 +18,11 @@
    font-smoothing: antialiased;
  }
 
- #BigTitle {
-   color: #d12437;
+ span {
+   background-color: #efae20;
+   color: #ffffff;
  }
+
 
  h1,
  h2,
@@ -502,8 +504,13 @@
    text-transform: uppercase;
    font-weight: 700;
    padding: 10px 0;
-   color: #efae20;
+   color: #d12437;
    margin-left: 37px;
+ }
+
+ .main-menu li a:hover {
+   color:#ffffff;
+   background-color: #d12437;
  }
 
  /* ----------------
