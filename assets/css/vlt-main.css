@@ -14,7 +14,7 @@
 /* 01. Helpers */
 :root
 {
-    --pf: Swansea, sans-serif;
+    --pf: Open Sans, sans-serif;
 }
 
 @-webkit-keyframes vlt_animate_icon_top_right
@@ -22,21 +22,21 @@
     49%
     {
         -webkit-transform: translateX(50%) translateY(-50%);
-                transform: translateX(50%) translateY(-50%); 
+                transform: translateX(50%) translateY(-50%);
 
         opacity: 0;
     }
     50%
     {
         -webkit-transform: translateX(-50%) translateY(50%);
-                transform: translateX(-50%) translateY(50%); 
+                transform: translateX(-50%) translateY(50%);
 
         opacity: 0;
     }
     51%
     {
         -webkit-transform: translateX(-50%) translateY(50%);
-                transform: translateX(-50%) translateY(50%); 
+                transform: translateX(-50%) translateY(50%);
 
         opacity: 1;
     }
@@ -47,21 +47,21 @@
     49%
     {
         -webkit-transform: translateX(50%) translateY(-50%);
-                transform: translateX(50%) translateY(-50%); 
+                transform: translateX(50%) translateY(-50%);
 
         opacity: 0;
     }
     50%
     {
         -webkit-transform: translateX(-50%) translateY(50%);
-                transform: translateX(-50%) translateY(50%); 
+                transform: translateX(-50%) translateY(50%);
 
         opacity: 0;
     }
     51%
     {
         -webkit-transform: translateX(-50%) translateY(50%);
-                transform: translateX(-50%) translateY(50%); 
+                transform: translateX(-50%) translateY(50%);
 
         opacity: 1;
     }
@@ -77,7 +77,7 @@
     50%
     {
         -webkit-transform: translateY(100%);
-                transform: translateY(100%); 
+                transform: translateY(100%);
 
         opacity: 0;
     }
@@ -97,7 +97,7 @@
     50%
     {
         -webkit-transform: translateY(100%);
-                transform: translateY(100%); 
+                transform: translateY(100%);
 
         opacity: 0;
     }
@@ -117,7 +117,7 @@
     50%
     {
         -webkit-transform: translateY(-100%);
-                transform: translateY(-100%); 
+                transform: translateY(-100%);
 
         opacity: 0;
     }
@@ -137,7 +137,7 @@
     50%
     {
         -webkit-transform: translateY(-100%);
-                transform: translateY(-100%); 
+                transform: translateY(-100%);
 
         opacity: 0;
     }
@@ -157,7 +157,7 @@
     50%
     {
         -webkit-transform: translateX(-100%);
-                transform: translateX(-100%); 
+                transform: translateX(-100%);
 
         opacity: 0;
     }
@@ -177,7 +177,7 @@
     50%
     {
         -webkit-transform: translateX(-100%);
-                transform: translateX(-100%); 
+                transform: translateX(-100%);
 
         opacity: 0;
     }
@@ -192,14 +192,14 @@
     49%
     {
         -webkit-transform: translateX(-50%);
-                transform: translateX(-50%); 
+                transform: translateX(-50%);
 
         opacity: 0;
     }
     50%
     {
         -webkit-transform: translateX(50%);
-                transform: translateX(50%); 
+                transform: translateX(50%);
 
         opacity: 0;
     }
@@ -214,14 +214,14 @@
     49%
     {
         -webkit-transform: translateX(-50%);
-                transform: translateX(-50%); 
+                transform: translateX(-50%);
 
         opacity: 0;
     }
     50%
     {
         -webkit-transform: translateX(50%);
-                transform: translateX(50%); 
+                transform: translateX(50%);
 
         opacity: 0;
     }
@@ -595,7 +595,7 @@ dl dd,
 .vlt-nav--slide__navigation ul.sf-menu
 {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 
     width: 100%;
 }
@@ -647,7 +647,7 @@ dl dd,
 .vlt-nav--slide__navigation ul.sf-menu > li.current-menu-item > a::after
 {
     -webkit-transform: translate3d(0, -50%, 0);
-            transform: translate3d(0, -50%, 0); 
+            transform: translate3d(0, -50%, 0);
 
     opacity: 1;
 }
@@ -659,7 +659,7 @@ dl dd,
 .vlt-nav--offcanvas__navigation ul.sf-menu ul.sub-menu > li > a,
 .vlt-nav--slide__navigation ul.sf-menu ul.sub-menu > li > a
 {
-    font-size: 16px; 
+    font-size: 16px;
     line-height: 2;
 }
 .vlt-nav--offcanvas__navigation ul.sf-menu ul.sub-menu > li:hover > a,
@@ -1486,7 +1486,7 @@ dl dd,
 .center-mode
 {
     position: absolute !important;
-    z-index: 1; 
+    z-index: 1;
     top: 50%;
     left: 50%;
 
@@ -1496,7 +1496,7 @@ dl dd,
 
 .alignfull
 {
-    width: 100vw; 
+    width: 100vw;
     max-width: 100vw;
     margin: 0 calc(50% - 50vw);
 }
@@ -1560,7 +1560,7 @@ dl dd,
 .vlt-custom--5156::after
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     bottom: 0;
     left: 0;
 
@@ -1580,7 +1580,7 @@ dl dd,
 .vlt-custom--1632::after
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -1595,14 +1595,14 @@ dl dd,
 .vlt-custom--1529
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     padding-right: 12%;
 }
 .vlt-custom--1529::after
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     right: 100%;
 
@@ -1622,7 +1622,7 @@ dl dd,
 .vlt-custom--6188::after
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 100%;
 
@@ -1642,7 +1642,7 @@ dl dd,
 .vlt-custom--1681::after
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -1677,7 +1677,7 @@ dl dd,
 .vlt-custom--1519
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     padding: 90px;
 
@@ -1775,7 +1775,7 @@ mark
 a
 {
     -webkit-transition: all 300ms;
-            transition: all 300ms; 
+            transition: all 300ms;
     text-decoration: none;
 
     color: inherit;
@@ -1890,7 +1890,7 @@ blockquote
 blockquote.pullquote
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     padding: 35px 20%;
 
@@ -1902,7 +1902,7 @@ blockquote.pullquote
 blockquote.pullquote::after
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -1944,7 +1944,7 @@ label
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none; 
+            user-select: none;
 
     color: #101010;
 }
@@ -1974,7 +1974,7 @@ select
     color: #101010;
     border: none;
     border-bottom: 1px solid #d6d6d6;
-    outline: none; 
+    outline: none;
     background-color: transparent;
 
     -webkit-appearance: none;
@@ -2013,7 +2013,7 @@ input[type='number'].placeholder,
 textarea.placeholder,
 select.placeholder
 {
-    opacity: 1; 
+    opacity: 1;
     color: #101010;
 }
 
@@ -2028,7 +2028,7 @@ input[type='number']:-moz-placeholder,
 textarea:-moz-placeholder,
 select:-moz-placeholder
 {
-    opacity: 1; 
+    opacity: 1;
     color: #101010;
 }
 
@@ -2043,7 +2043,7 @@ input[type='number']::-moz-placeholder,
 textarea::-moz-placeholder,
 select::-moz-placeholder
 {
-    opacity: 1; 
+    opacity: 1;
     color: #101010;
 }
 
@@ -2058,7 +2058,7 @@ input[type='number']:-ms-input-placeholder,
 textarea:-ms-input-placeholder,
 select:-ms-input-placeholder
 {
-    opacity: 1; 
+    opacity: 1;
     color: #101010;
 }
 
@@ -2073,7 +2073,7 @@ input[type='number']::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder,
 select::-webkit-input-placeholder
 {
-    opacity: 1; 
+    opacity: 1;
     color: #101010;
 }
 
@@ -2225,7 +2225,7 @@ dl
 }
 dl dt
 {
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: 700;
 
     color: #101010;
@@ -2247,7 +2247,7 @@ dl dd
 {
     position: relative;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     background-color: #fff;
 }
@@ -2278,7 +2278,7 @@ dl dd
 .vlt-header--slide
 {
     position: absolute;
-    z-index: 30; 
+    z-index: 30;
     top: 0;
     left: 0;
 
@@ -2306,7 +2306,7 @@ dl dd
 .vlt-navbar
 {
     position: relative;
-    z-index: 50; 
+    z-index: 50;
 
     -webkit-transition: background-color 300ms;
             transition: background-color 300ms;
@@ -2323,7 +2323,7 @@ dl dd
     display:         flex;
 
     width: 100%;
-    min-height: 90px; 
+    min-height: 90px;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -2388,7 +2388,7 @@ dl dd
 }
 .vlt-navbar .vlt-navbar-logo
 {
-    line-height: 1; 
+    line-height: 1;
 
     display: inline-block;
 }
@@ -2498,7 +2498,7 @@ dl dd
             flex-direction: column;
 
     width: 100%;
-    height: 100%; 
+    height: 100%;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2507,7 +2507,7 @@ dl dd
 }
 .vlt-nav .vlt-nav-table--row
 {
-            flex-direction: row; 
+            flex-direction: row;
 
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -2532,7 +2532,7 @@ dl dd
 .vlt-nav .vlt-nav-table .vlt-nav-row--full
 {
     overflow: hidden;
-    overflow-y: auto; 
+    overflow-y: auto;
 
     min-height: 0;
 }
@@ -2542,7 +2542,7 @@ dl dd
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-            flex-direction: column; 
+            flex-direction: column;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2579,7 +2579,7 @@ dl dd
     width: 34px;
 
     -webkit-transition: none;
-            transition: none; 
+            transition: none;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -2601,7 +2601,7 @@ dl dd
     margin: 4px 0;
 
     -webkit-transition: all 300ms;
-            transition: all 300ms; 
+            transition: all 300ms;
 
     background-color: currentColor;
 }
@@ -2611,7 +2611,7 @@ dl dd
 }
 .vlt-menu-burger span.line-two
 {
-    width: 20px; 
+    width: 20px;
 
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
@@ -2640,7 +2640,7 @@ dl dd
 {
     -webkit-transform: rotate(-45deg) translateX(4px) translateY(-3px);
         -ms-transform: rotate(-45deg) translateX(4px) translateY(-3px);
-            transform: rotate(-45deg) translateX(4px) translateY(-3px); 
+            transform: rotate(-45deg) translateX(4px) translateY(-3px);
 
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -2761,7 +2761,7 @@ dl dd
     float: none;
 
     min-height: 90px;
-    padding: 0 17px; 
+    padding: 0 17px;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -2792,7 +2792,7 @@ dl dd
 
     content: '';
     -webkit-transition: all 300ms;
-            transition: all 300ms; 
+            transition: all 300ms;
     -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
             transform: scaleX(0);
@@ -2815,7 +2815,7 @@ dl dd
 .vlt-header--dark
       .vlt-nav--default .sf-menu > li.current-menu-item > a
 {
-    opacity: 1; 
+    opacity: 1;
     color: inherit;
 }
 .vlt-nav--default .sf-menu > li:hover > a > span::after,
@@ -2859,7 +2859,7 @@ dl dd
 
     padding: 4px 40px;
 
-    white-space: nowrap; 
+    white-space: nowrap;
 
     color: #b3b3b3;
 
@@ -2886,7 +2886,7 @@ dl dd
 .vlt-nav--default .sf-menu ul.sub-menu li.menu-item-has-children > a::after
 {
     font-family: Skape;
-    font-size: 50%; 
+    font-size: 50%;
 
     content: '\e908';
 }
@@ -2916,7 +2916,7 @@ dl dd
 .vlt-nav--creative
 {
     position: fixed;
-    z-index: 70; 
+    z-index: 70;
     top: 0;
     right: 0;
     bottom: 0;
@@ -2961,7 +2961,7 @@ dl dd
 
     min-height: 90px;
 
-    color: #101010; 
+    color: #101010;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -2970,7 +2970,7 @@ dl dd
 }
 .vlt-nav--creative__navigation
 {
-    z-index: 2; 
+    z-index: 2;
 
     padding: 0 15%;
 
@@ -2979,7 +2979,7 @@ dl dd
 .vlt-nav--creative__navigation ul.sf-menu
 {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 
     width: 100%;
 }
@@ -2992,7 +2992,7 @@ dl dd
     padding: 0 60px;
 
     -webkit-transition: background-position 500ms;
-            transition: background-position 500ms; 
+            transition: background-position 500ms;
 
     color: #101010;
     background-image: -webkit-gradient(linear, right top, left top, from(currentColor), color-stop(50%, currentColor), color-stop(50%, transparent));
@@ -3050,7 +3050,7 @@ dl dd
 .vlt-nav--offcanvas
 {
     position: fixed;
-    z-index: 70; 
+    z-index: 70;
     top: 0;
     right: 0;
     bottom: 0;
@@ -3087,7 +3087,7 @@ dl dd
 }
 .vlt-nav--offcanvas.is-open
 {
-    visibility: visible; 
+    visibility: visible;
 
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -3099,7 +3099,7 @@ dl dd
 .vlt-nav--offcanvas .vlt-menu-burger
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 35px;
     right: 60px;
 
@@ -3146,7 +3146,7 @@ dl dd
 .vlt-nav--fullscreen
 {
     position: fixed;
-    z-index: 70; 
+    z-index: 70;
     top: 0;
     right: 0;
     bottom: 0;
@@ -3185,7 +3185,7 @@ dl dd
 .vlt-nav--fullscreen__mask
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 50%;
     left: 50%;
 
@@ -3216,7 +3216,7 @@ dl dd
 
     min-height: 90px;
 
-    color: #101010; 
+    color: #101010;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -3225,14 +3225,14 @@ dl dd
 }
 .vlt-nav--fullscreen__navigation
 {
-    z-index: 2; 
+    z-index: 2;
 
     text-align: center;
 }
 .vlt-nav--fullscreen__navigation ul.sf-menu
 {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 
     width: 100%;
 }
@@ -3284,7 +3284,7 @@ dl dd
 .vlt-nav--fullscreen__navigation ul.sf-menu li.current-menu-item > a::after
 {
     -webkit-transform: translate3d(0, -50%, 0);
-            transform: translate3d(0, -50%, 0); 
+            transform: translate3d(0, -50%, 0);
 
     opacity: 1;
 }
@@ -3329,7 +3329,7 @@ dl dd
 .vlt-header--slide
 {
     position: fixed;
-    z-index: 90; 
+    z-index: 90;
     top: 0;
     bottom: 0;
     left: 0;
@@ -3350,7 +3350,7 @@ dl dd
 
     text-align: center;
 
-    border-right: 1px solid #e6e6e6; 
+    border-right: 1px solid #e6e6e6;
 
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -3367,7 +3367,7 @@ dl dd
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-            flex-direction: column; 
+            flex-direction: column;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3402,7 +3402,7 @@ dl dd
 .vlt-nav--slide
 {
     position: fixed;
-    z-index: 80; 
+    z-index: 80;
     top: 0;
     bottom: 0;
     left: 0;
@@ -3430,7 +3430,7 @@ dl dd
 }
 .vlt-nav--slide.is-open
 {
-    visibility: visible; 
+    visibility: visible;
 
     -webkit-transform: translate3d(0, 0, 0);
             transform: translate3d(0, 0, 0);
@@ -3458,13 +3458,13 @@ dl dd
 {
     position: relative;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     background-color: #101010;
 }
 .vlt-footer--fixed
 {
-    z-index: 10; 
+    z-index: 10;
 
     will-change: transform;
 }
@@ -3481,7 +3481,7 @@ dl dd
     padding: 95px 0;
 
     background-image: url('../img/root/footer-shape-1.png');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 400px;
 }
@@ -3501,7 +3501,7 @@ dl dd
 
     color: #fff;
     background-image: url('../img/root/footer-style-2.png');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -3517,7 +3517,7 @@ dl dd
     padding: 120px 0;
 
     background-image: url('../img/root/footer-shape-2.png');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 465px;
 }
@@ -3626,7 +3626,7 @@ dl dd
 }
 .vlt-comment-item__inner .vlt-comment-avatar
 {
-    margin-right: 40px; 
+    margin-right: 40px;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -3686,7 +3686,7 @@ dl dd
 }
 .vlt-comment-item__inner .vlt-comment-reply i
 {
-    font-size: 10px; 
+    font-size: 10px;
 
     display: inline-block;
 
@@ -3714,7 +3714,7 @@ dl dd
 {
     .vlt-sidebar--right
     {
-        margin-top: 60px; 
+        margin-top: 60px;
         padding-left: 0;
     }
 }
@@ -3727,7 +3727,7 @@ dl dd
 {
     .vlt-sidebar--left
     {
-        margin-top: 60px; 
+        margin-top: 60px;
         padding-right: 0;
     }
 }
@@ -3808,7 +3808,7 @@ dl dd
     margin: 0;
     padding: 0;
 
-    cursor: pointer; 
+    cursor: pointer;
     -webkit-transition: color 300ms;
             transition: color 300ms;
 
@@ -3878,7 +3878,7 @@ dl dd
 }
 .vlt-widget--recent-posts .vlt-widget-post__thumbnail
 {
-    overflow: hidden; 
+    overflow: hidden;
 
     max-width: 90px;
 
@@ -3898,7 +3898,7 @@ dl dd
 }
 .vlt-widget--recent-posts .vlt-widget-post__content
 {
-    overflow: hidden; 
+    overflow: hidden;
 
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
@@ -3913,7 +3913,7 @@ dl dd
 .vlt-widget--recent-posts .vlt-widget-post__content h5
 {
     font-size: 16px;
-    line-height: 1.5; 
+    line-height: 1.5;
 
     overflow: hidden;
 
@@ -3973,7 +3973,7 @@ dl dd
     display: -ms-flexbox;
     display:         flex;
 
-    margin: -5px; 
+    margin: -5px;
 
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
@@ -4032,7 +4032,7 @@ dl dd
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
-    opacity: 0; 
+    opacity: 0;
     background-color: rgba(16, 16, 16, .3);
 
     -webkit-box-align: center;
@@ -4117,7 +4117,7 @@ dl dd
 .vlt-post-meta span + span::before
 {
     margin-left: 6px;
-    padding-right: 6px; 
+    padding-right: 6px;
 
     content: '/';
 }
@@ -4142,7 +4142,7 @@ dl dd
     display: -ms-flexbox;
     display:         flex;
 
-    margin-top: 70px; 
+    margin-top: 70px;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -4175,7 +4175,7 @@ dl dd
 .vlt-single-post__footer .vlt-post-tags__title
 {
     font-size: 14px;
-    line-height: 1.2; 
+    line-height: 1.2;
 
     margin-right: 25px;
 }
@@ -4205,7 +4205,7 @@ dl dd
 .vlt-single-post__footer .vlt-post-share__title
 {
     font-size: 14px;
-    line-height: 1.2; 
+    line-height: 1.2;
 
     margin-right: 25px;
 }
@@ -4217,7 +4217,7 @@ dl dd
 .vlt-post__link
 {
     position: absolute;
-    z-index: 2; 
+    z-index: 2;
     top: 0;
     left: 0;
 
@@ -4281,7 +4281,7 @@ dl dd
 }
 [data-columns='1'] .vlt-post--style-2 .vlt-post__content
 {
-    padding-right: 20%; 
+    padding-right: 20%;
     padding-left: 20%;
 }
 
@@ -4317,13 +4317,13 @@ dl dd
     padding: 35px 40px 40px;
 
     -webkit-transition: background-color 300ms;
-            transition: background-color 300ms; 
+            transition: background-color 300ms;
 
     background-color: #f5f5f5;
 }
 [data-columns='2'] .vlt-post--style-3 .vlt-post__content
 {
-    padding-right: 45px; 
+    padding-right: 45px;
     padding-left: 45px;
 }
 [data-columns='4'] .vlt-post--style-3 .vlt-post__content
@@ -4336,7 +4336,7 @@ dl dd
     margin-bottom: 20px;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #8a8a8a;
 }
@@ -4376,7 +4376,7 @@ dl dd
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-            flex-direction: row; 
+            flex-direction: row;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -4406,7 +4406,7 @@ dl dd
 {
     width: 100%;
     max-width: 390px;
-    margin-right: 70px; 
+    margin-right: 70px;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -4422,7 +4422,7 @@ dl dd
 }
 .vlt-post--style-4 .vlt-post__content
 {
-    padding: 40px 0; 
+    padding: 40px 0;
 
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
@@ -4460,7 +4460,7 @@ dl dd
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-            flex-direction: row; 
+            flex-direction: row;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -4498,7 +4498,7 @@ dl dd
     text-align: center;
     text-transform: uppercase;
 
-    opacity: .5; 
+    opacity: .5;
     color: #101010;
 }
 @media only screen and (max-width: 767px)
@@ -4531,7 +4531,7 @@ dl dd
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
-    opacity: .5; 
+    opacity: .5;
 
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
@@ -4554,14 +4554,14 @@ dl dd
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
-    opacity: .5; 
+    opacity: .5;
     color: #101010;
 }
 @media only screen and (max-width: 767px)
 {
     .vlt-post--style-5 .vlt-post-category
     {
-        margin-top: 20px; 
+        margin-top: 20px;
         margin-left: 0;
     }
 }
@@ -4600,7 +4600,7 @@ dl dd
     padding: 45px 50px;
 
     -webkit-transition: background-color 300ms;
-            transition: background-color 300ms; 
+            transition: background-color 300ms;
 
     background-color: #fff;
     -webkit-box-shadow: inset 0 0 0 1px #d6d6d6;
@@ -4621,7 +4621,7 @@ dl dd
     margin-bottom: 15px;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #8a8a8a;
 }
@@ -4689,7 +4689,7 @@ dl dd
 
     width: 100%;
     height: 100%;
-    padding: 40px 60px; 
+    padding: 40px 60px;
 
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
@@ -4749,7 +4749,7 @@ dl dd
 .vlt-project-showcase--style-1 .vlt-project-showcase__title a
 {
     -webkit-transition: background-position 500ms;
-            transition: background-position 500ms; 
+            transition: background-position 500ms;
 
     background-image: -webkit-gradient(linear, right top, left top, from(currentColor), color-stop(50%, currentColor), color-stop(50%, transparent));
     background-image: -webkit-linear-gradient(right, currentColor 0%, currentColor 50%, transparent 50%);
@@ -4790,7 +4790,7 @@ dl dd
 .vlt-project-showcase--style-2 .vlt-project-showcase__item
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -4820,7 +4820,7 @@ dl dd
 .vlt-project-showcase--style-2 .vlt-project-showcase__image
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: -50px;
     right: 0;
     bottom: -50px;
@@ -4863,7 +4863,7 @@ dl dd
 .vlt-project-showcase--style-2 .vlt-project-showcase__title a
 {
     -webkit-transition: background-position 500ms;
-            transition: background-position 500ms; 
+            transition: background-position 500ms;
 
     background-image: -webkit-gradient(linear, right top, left top, from(currentColor), color-stop(50%, currentColor), color-stop(50%, transparent));
     background-image: -webkit-linear-gradient(right, currentColor 0%, currentColor 50%, transparent 50%);
@@ -4911,7 +4911,7 @@ dl dd
 .vlt-project-showcase--style-2 .swiper-slide-active .vlt-project-showcase__title a
 {
     -webkit-transition-delay: 500ms;
-            transition-delay: 500ms; 
+            transition-delay: 500ms;
 
     color: inherit;
     background-position: -100% 0;
@@ -4920,7 +4920,7 @@ dl dd
 .vlt-project-showcase--style-2 .swiper-slide-active .vlt-project-showcase__category
 {
     -webkit-transition-delay: 500ms;
-            transition-delay: 500ms; 
+            transition-delay: 500ms;
 
     opacity: 1;
 }
@@ -4937,7 +4937,7 @@ dl dd
 -------------------------------------------- */
 .vlt-project-showcase--style-3
 {
-    height: 100vh; 
+    height: 100vh;
     min-height: 550px;
 }
 .vlt-project-showcase--style-3 .swiper-container,
@@ -4963,7 +4963,7 @@ dl dd
     width: 100%;
     height: 100%;
 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -4976,7 +4976,7 @@ dl dd
     width: 100%;
     height: 100%;
 
-    opacity: .5; 
+    opacity: .5;
 
     -o-object-fit: cover;
        object-fit: cover;
@@ -5002,7 +5002,7 @@ dl dd
 .vlt-project-showcase--style-3 .vlt-project-showcase__next-slide a
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -5033,7 +5033,7 @@ dl dd
 .vlt-project-showcase--style-3 .vlt-project-showcase__next-slide a img
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -5058,7 +5058,7 @@ dl dd
 }
 .vlt-project-showcase--style-3 .vlt-project-showcase__next-slide a i
 {
-    font-size: 16px; 
+    font-size: 16px;
 
     margin-top: 16px;
 }
@@ -5081,7 +5081,7 @@ dl dd
     display:         flex;
             flex-direction: column;
 
-    height: 100%; 
+    height: 100%;
 
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -5175,7 +5175,7 @@ dl dd
 -------------------------------------------- */
 .vlt-project-showcase--style-4
 {
-    height: 100vh; 
+    height: 100vh;
     min-height: 550px;
 }
 .vlt-project-showcase--style-4 .swiper-container,
@@ -5188,7 +5188,7 @@ dl dd
 {
     position: relative;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     height: 100%;
 }
@@ -5242,7 +5242,7 @@ dl dd
 .vlt-project-showcase--style-4 .vlt-project-showcase__content
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     left: 0;
 
@@ -5264,7 +5264,7 @@ dl dd
 {
     position: relative;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     width: 100%;
     height: calc(100% - 90px);
@@ -5325,7 +5325,7 @@ dl dd
 }
 .vlt-project-showcase--style-4 .vlt-project-showcase__description
 {
-    max-width: 390px; 
+    max-width: 390px;
     margin-top: 30px;
     margin-bottom: 40px;
 }
@@ -5340,7 +5340,7 @@ dl dd
     line-height: .9;
 
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     bottom: -.1em;
 
     white-space: nowrap;
@@ -5356,7 +5356,7 @@ dl dd
 -------------------------------------------- */
 .vlt-project-showcase--style-5
 {
-    height: 100vh; 
+    height: 100vh;
     min-height: 550px;
 }
 .vlt-project-showcase--style-5 .swiper-container,
@@ -5368,7 +5368,7 @@ dl dd
 .vlt-project-showcase--style-5 .vlt-project-showcase__item
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -5389,7 +5389,7 @@ dl dd
 .vlt-project-showcase--style-5 .vlt-project-showcase__image
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
@@ -5423,7 +5423,7 @@ dl dd
 }
 .vlt-project-showcase--style-5 .vlt-project-showcase__footer .vlt-simple-link
 {
-    z-index: 1; 
+    z-index: 1;
 
     height: 80px;
     padding-right: 110px;
@@ -5441,7 +5441,7 @@ dl dd
 .vlt-project-showcase--style-5 .vlt-project-showcase__footer .vlt-simple-link::before
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     right: 100%;
     bottom: 0;
@@ -5467,7 +5467,7 @@ dl dd
 }
 .vlt-project-showcase--style-5 .vlt-project-showcase__title a:hover
 {
-    opacity: .8; 
+    opacity: .8;
     color: inherit;
 }
 
@@ -5475,7 +5475,7 @@ dl dd
 -------------------------------------------- */
 .vlt-project-showcase--style-6
 {
-    height: 100vh; 
+    height: 100vh;
     min-height: 550px;
 }
 .vlt-project-showcase--style-6 .swiper-container,
@@ -5487,7 +5487,7 @@ dl dd
 .vlt-project-showcase--style-6 .vlt-project-showcase__item
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -5510,7 +5510,7 @@ dl dd
 .vlt-project-showcase--style-6 .vlt-project-showcase__image
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
@@ -5561,7 +5561,7 @@ dl dd
 }
 .vlt-project-showcase--style-6 .vlt-project-showcase__title
 {
-    font-size: 130px; 
+    font-size: 130px;
 
     position: relative;
 
@@ -5642,7 +5642,7 @@ dl dd
 -------------------------------------------- */
 .vlt-project-showcase--style-7
 {
-    height: 100vh; 
+    height: 100vh;
     min-height: 550px;
 }
 .vlt-project-showcase--style-7 .swiper-container,
@@ -5654,7 +5654,7 @@ dl dd
 .vlt-project-showcase--style-7 .vlt-project-showcase__item
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -5678,7 +5678,7 @@ dl dd
 .vlt-project-showcase--style-7 .vlt-project-showcase__item::before
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     bottom: 0;
 
@@ -5708,7 +5708,7 @@ dl dd
 .vlt-project-showcase--style-7 .vlt-project-showcase__image
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     right: 0;
     bottom: 0;
@@ -5779,7 +5779,7 @@ dl dd
 .vlt-project-showcase--style-7 .vlt-project-showcase__footer
 {
     position: absolute;
-    z-index: 2; 
+    z-index: 2;
     right: 0;
     bottom: 0;
     left: 0;
@@ -5801,7 +5801,7 @@ dl dd
 .vlt-project-showcase--style-7 .vlt-project-showcase__navigation
 {
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -5838,7 +5838,7 @@ dl dd
     -webkit-user-select: none;
        -moz-user-select: none;
         -ms-user-select: none;
-            user-select: none; 
+            user-select: none;
 
     color: rgba(16, 16, 16, .5);
     border-bottom: 1px solid transparent;
@@ -5851,7 +5851,7 @@ dl dd
 .vlt-project-showcase--style-7 .vlt-slider-controls,
 .vlt-project-showcase--style-7 .vlt-project-showcase__socials
 {
-    padding: 40px 50px; 
+    padding: 40px 50px;
 
     -webkit-flex-basis: 20%;
     -ms-flex-preferred-size: 20%;
@@ -5896,7 +5896,7 @@ dl dd
 .vlt-work__link
 {
     position: absolute;
-    z-index: 2; 
+    z-index: 2;
     top: 0;
     left: 0;
 
@@ -5972,7 +5972,7 @@ dl dd
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
-    opacity: 0; 
+    opacity: 0;
     color: #fff;
     background-color: rgba(16, 16, 16, .3);
 
@@ -6001,7 +6001,7 @@ dl dd
 .vlt-work--style-6 .vlt-work__category,
 .vlt-work--style-4 .vlt-work__category
 {
-    opacity: 0; 
+    opacity: 0;
     color: inherit;
 }
 .vlt-work--style-2 .vlt-work__title a:hover,
@@ -6082,7 +6082,7 @@ dl dd
 {
     padding: 50px 60px;
 
-    opacity: 1; 
+    opacity: 1;
     background-color: unset;
 
     -webkit-box-align: start;
@@ -6179,7 +6179,7 @@ dl dd
 }
 .vlt-work--style-7 .vlt-work__title
 {
-    font-size: 46px; 
+    font-size: 46px;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -6257,7 +6257,7 @@ dl dd
     left: 0;
 
     width: 100%;
-    height: 100%; 
+    height: 100%;
 
     -o-object-fit: cover;
        object-fit: cover;
@@ -6280,7 +6280,7 @@ dl dd
 }
 .vlt-about-author__avatar
 {
-    max-width: 140px; 
+    max-width: 140px;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -6312,7 +6312,7 @@ dl dd
 }
 .vlt-about-author__title
 {
-    font-size: 20px; 
+    font-size: 20px;
 
     margin-bottom: 15px;
 }
@@ -6336,7 +6336,7 @@ dl dd
 .vlt-contact-form .message,
 .vlt-apply-position-form .message
 {
-    font-size: 14px; 
+    font-size: 14px;
 
     display: none;
 
@@ -6355,7 +6355,7 @@ dl dd
 .vlt-cursor
 {
     position: fixed;
-    z-index: 110; 
+    z-index: 110;
     top: 0;
     left: 0;
 
@@ -6403,7 +6403,7 @@ dl dd
     width: 100%;
     height: 100%;
 
-    border-radius: 50%; 
+    border-radius: 50%;
     -webkit-box-shadow: inset 0 0 0 2px #101010;
             box-shadow: inset 0 0 0 2px #101010;
 }
@@ -6421,7 +6421,7 @@ dl dd
 .vlt-cursor .inner .icon
 {
     font-size: 16px;
-    line-height: 0; 
+    line-height: 0;
 
     display: inline-block;
 
@@ -6435,7 +6435,7 @@ dl dd
 .vlt-cursor.is-visible .inner .icon
 {
     -webkit-transform: scale(1) translate3d(0, 0, 0);
-            transform: scale(1) translate3d(0, 0, 0); 
+            transform: scale(1) translate3d(0, 0, 0);
 
     opacity: 1;
 }
@@ -6485,14 +6485,14 @@ dl dd
 .vlt-post-media-title
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     overflow: hidden;
 }
 .vlt-post-media-title__overlay
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -6537,7 +6537,7 @@ dl dd
 .vlt-search-popup
 {
     position: fixed;
-    z-index: 60; 
+    z-index: 60;
     top: 0;
     left: 0;
 
@@ -6588,7 +6588,7 @@ dl dd
 }
 .vlt-search-popup__content .vlt-search-form input[type='text']
 {
-    font-size: 20px; 
+    font-size: 20px;
 
     padding: 15px 50px 15px 0;
 }
@@ -6634,7 +6634,7 @@ dl dd
     margin: 0;
     padding: 0;
 
-    cursor: pointer; 
+    cursor: pointer;
     -webkit-transition: color 300ms;
             transition: color 300ms;
 
@@ -6657,7 +6657,7 @@ dl dd
 {
     line-height: 1;
 
-    z-index: 25; 
+    z-index: 25;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -6688,7 +6688,7 @@ dl dd
 .vlt-site-fixed-bar .vlt-site-fixed-bar__socials
 {
         -ms-writing-mode: tb-rl;
-    pointer-events: auto; 
+    pointer-events: auto;
 
     -webkit-writing-mode: vertical-rl;
             writing-mode: vertical-rl;
@@ -6698,7 +6698,7 @@ dl dd
 .vlt-site-fixed-bar .vlt-site-fixed-bar__socials .vlt-social-icon--style-1 + .vlt-social-icon--style-2,
 .vlt-site-fixed-bar .vlt-site-fixed-bar__socials .vlt-social-icon--style-2 + .vlt-social-icon--style-2
 {
-    margin-top: 20px; 
+    margin-top: 20px;
     margin-left: 0;
 }
 .vlt-site-fixed-bar .vlt-swiper-progress
@@ -6748,7 +6748,7 @@ dl dd
 .vlt-site-overlay
 {
     position: fixed;
-    z-index: 55; 
+    z-index: 55;
     top: 0;
     left: 0;
 
@@ -6766,7 +6766,7 @@ dl dd
 .vlt-site-preloader
 {
     position: fixed;
-    z-index: 120; 
+    z-index: 120;
     top: 0;
     left: 0;
 
@@ -6795,7 +6795,7 @@ dl dd
 }
 .vlt-site-preloader.is-loaded
 {
-    visibility: hidden; 
+    visibility: hidden;
 
     opacity: 0;
 }
@@ -6886,7 +6886,7 @@ dl dd
     margin: 0;
     padding: 0;
 
-    cursor: pointer; 
+    cursor: pointer;
     -webkit-transition: color 300ms;
             transition: color 300ms;
 
@@ -6896,7 +6896,7 @@ dl dd
 }
 .vlt-subscribe-form button i
 {
-    font-size: 85%; 
+    font-size: 85%;
 
     margin-left: 10px;
 }
@@ -6910,7 +6910,7 @@ dl dd
 .vlt-hover-reveal
 {
     position: fixed;
-    z-index: 100; 
+    z-index: 100;
     top: 0;
     left: 0;
 
@@ -6924,7 +6924,7 @@ dl dd
 .vlt-hover-reveal__inner,
 .vlt-hover-reveal__img
 {
-    position: relative; 
+    position: relative;
 
     width: 100%;
     height: 100%;
@@ -6935,7 +6935,7 @@ dl dd
 }
 .vlt-hover-reveal__img
 {
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -6948,7 +6948,7 @@ dl dd
     -webkit-transition-property: -webkit-transform;
             transition-property: -webkit-transform;
             transition-property:         transform;
-            transition-property:         transform, -webkit-transform; 
+            transition-property:         transform, -webkit-transform;
     -webkit-transform: translate3d(-100%, 0, 0);
             transform: translate3d(-100%, 0, 0);
 }
@@ -6977,7 +6977,7 @@ dl dd
     color: #101010;
     border-radius: 50%;
     -webkit-box-shadow: inset 0 0 0 2px currentColor;
-            box-shadow: inset 0 0 0 2px currentColor; 
+            box-shadow: inset 0 0 0 2px currentColor;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -7013,7 +7013,7 @@ dl dd
     margin: -10px 0 -10px;
     padding: 0;
 
-    list-style-type: none; 
+    list-style-type: none;
 
     color: #101010;
 }
@@ -7050,7 +7050,7 @@ dl dd
 
     content: '';
     -webkit-transition: all 300ms;
-            transition: all 300ms; 
+            transition: all 300ms;
     -webkit-transform: scaleX(0);
         -ms-transform: scaleX(0);
             transform: scaleX(0);
@@ -7195,7 +7195,7 @@ dl dd
     height: 60px;
     padding: 0;
 
-    cursor: pointer; 
+    cursor: pointer;
     -webkit-transition: all 300ms;
             transition: all 300ms;
 
@@ -7255,7 +7255,7 @@ dl dd
     font-family: 'object-fit: cover;';
 
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -7308,7 +7308,7 @@ dl dd
 .vlt-swiper-progress
 {
     font-size: 16px;
-    line-height: 0; 
+    line-height: 0;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -7354,7 +7354,7 @@ dl dd
     margin: 0 20px;
 
     -webkit-transition: background-color 300ms;
-            transition: background-color 300ms; 
+            transition: background-color 300ms;
 
     background-color: #d6d6d6;
 
@@ -7376,7 +7376,7 @@ dl dd
     height: 100%;
 
     -webkit-transition: all 1s;
-            transition: all 1s; 
+            transition: all 1s;
     -webkit-transform: translate3d(0, 0, 0) scaleX(var(--scaleX));
             transform: translate3d(0, 0, 0) scaleX(var(--scaleX));
     -webkit-transform-origin: left top;
@@ -7414,7 +7414,7 @@ dl dd
     padding: 40px 45px 40px 50px;
 
     -webkit-transition: background-color 300ms;
-            transition: background-color 300ms; 
+            transition: background-color 300ms;
 
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
@@ -7455,7 +7455,7 @@ dl dd
 .vlt-award-item__link
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     left: 0;
 
@@ -7465,7 +7465,7 @@ dl dd
 .vlt-award-item__name
 {
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     -webkit-flex-basis: 40%;
     -ms-flex-preferred-size: 40%;
@@ -7486,7 +7486,7 @@ dl dd
     font-weight: 700;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #101010;
 
@@ -7498,7 +7498,7 @@ dl dd
 {
     .vlt-award-item__category
     {
-        margin-top: 15px; 
+        margin-top: 15px;
 
         -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
@@ -7510,7 +7510,7 @@ dl dd
     font-weight: 700;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #101010;
 }
@@ -7518,7 +7518,7 @@ dl dd
 {
     .vlt-award-item__year
     {
-        margin-top: 15px; 
+        margin-top: 15px;
 
         -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
@@ -7528,7 +7528,7 @@ dl dd
 .vlt-award-item__icon
 {
     font-size: 16px;
-    line-height: 1; 
+    line-height: 1;
 
     color: #fff;
 }
@@ -7570,7 +7570,7 @@ dl dd
     line-height: 1.1;
 
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -7601,7 +7601,7 @@ dl dd
 .vlt-btn:disabled,
 .vlt-btn.disabled
 {
-    cursor: not-allowed; 
+    cursor: not-allowed;
     pointer-events: none;
 }
 .vlt-btn--block
@@ -7623,7 +7623,7 @@ dl dd
 .vlt-btn span
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
 
     display: block;
 
@@ -7644,7 +7644,7 @@ dl dd
 }
 .vlt-btn:hover span
 {
-    width: 40rem; 
+    width: 40rem;
     height: 40rem;
 }
 
@@ -7716,28 +7716,28 @@ dl dd
 .vlt-btn,
 .vlt-btn--md
 {
-    font-size: 18px; 
+    font-size: 18px;
 
     padding: 20px 60px;
 }
 
 .vlt-btn--lg
 {
-    font-size: 18px; 
+    font-size: 18px;
 
     padding: 20px 70px;
 }
 
 .vlt-btn--sm
 {
-    font-size: 14px; 
+    font-size: 14px;
 
     padding: 13px 27px;
 }
 
 .vlt-btn--xs
 {
-    font-size: 14px; 
+    font-size: 14px;
 
     padding: 8px 20px;
 }
@@ -7755,7 +7755,7 @@ dl dd
 
 .vlt-cases-slider .vlt-cases-slider__description
 {
-    font-size: 20px; 
+    font-size: 20px;
 
     max-width: 90%;
     margin-top: 30px;
@@ -7782,7 +7782,7 @@ dl dd
     display:         inline-flex;
 
     -webkit-animation: var(--speed) vlt_marquee linear infinite;
-            animation: var(--speed) vlt_marquee linear infinite; 
+            animation: var(--speed) vlt_marquee linear infinite;
     white-space: nowrap;
 
     --speed: 10s;
@@ -7806,7 +7806,7 @@ dl dd
     top: 0;
     left: 100%;
 
-    width: 100%; 
+    width: 100%;
     height: 100%;
 }
 
@@ -7839,7 +7839,7 @@ dl dd
 }
 .vlt-countdown span + span::before
 {
-    margin-right: 18px; 
+    margin-right: 18px;
     margin-left: 18px;
 
     content: ':';
@@ -7856,7 +7856,7 @@ dl dd
 .vlt-counter-up--style-1 .vlt-counter-up__counter
 {
     font-size: 130px;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 1;
 }
 @media only screen and (max-width: 767px)
@@ -7891,7 +7891,7 @@ dl dd
 .vlt-counter-up--style-2 .vlt-counter-up__icon,
 .vlt-counter-up--style-3 .vlt-counter-up__icon
 {
-    font-size: 26px; 
+    font-size: 26px;
 
     margin-right: 20px;
 }
@@ -7899,7 +7899,7 @@ dl dd
 .vlt-counter-up--style-3 .vlt-counter-up__counter
 {
     font-size: 46px;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 1;
 
     -webkit-flex-shrink: 0;
@@ -7911,7 +7911,7 @@ dl dd
 {
     margin-left: 18px;
 
-    color: inherit; 
+    color: inherit;
 
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
@@ -7953,7 +7953,7 @@ dl dd
 
     color: #fff;
     border-radius: 50%;
-    background-color: #232323; 
+    background-color: #232323;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -7995,7 +7995,7 @@ dl dd
     display:         inline-flex;
 
     height: 100px;
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -8036,7 +8036,7 @@ dl dd
 
 .vlt-demo-item--style-1 .vlt-demo-item__title a:hover
 {
-    opacity: .8; 
+    opacity: .8;
     color: inherit;
 }
 
@@ -8072,7 +8072,7 @@ dl dd
 -------------------------------------------- */
 .vlt-page-navigation--style-2
 {
-    overflow: hidden; 
+    overflow: hidden;
 
     border-top: 1px solid #d6d6d6;
 }
@@ -8083,7 +8083,7 @@ dl dd
 .vlt-page-navigation--style-2 .all::before
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: -100%;
     left: 50%;
 
@@ -8099,7 +8099,7 @@ dl dd
 {
     font-size: 18px;
 
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -8145,7 +8145,7 @@ dl dd
 }
 .vlt-page-navigation--style-2 .prev
 {
-    padding-right: 100px; 
+    padding-right: 100px;
 
     text-align: right;
 }
@@ -8181,7 +8181,7 @@ dl dd
 .vlt-page-navigation--style-2 .prev h5,
 .vlt-page-navigation--style-2 .next h5
 {
-    overflow: hidden; 
+    overflow: hidden;
 
     margin-top: 10px;
 
@@ -8194,14 +8194,14 @@ dl dd
 .vlt-page-title
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     overflow: hidden;
 }
 .vlt-page-title__overlay
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -8228,7 +8228,7 @@ dl dd
 
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
-            transform: translateX(-50%); 
+            transform: translateX(-50%);
 
     color: #fff;
 
@@ -8243,7 +8243,7 @@ dl dd
 }
 .vlt-page-title__scroll-to:hover
 {
-    opacity: .8; 
+    opacity: .8;
     color: #fff;
 }
 .vlt-page-title__scroll-to:hover i
@@ -8325,7 +8325,7 @@ dl dd
 -------------------------------------------- */
 .vlt-page-title--style-4
 {
-    overflow: unset; 
+    overflow: unset;
 
     padding: 180px 0 0;
 }
@@ -8339,7 +8339,7 @@ dl dd
     top: -.3em;
 
     white-space: nowrap;
-    pointer-events: none; 
+    pointer-events: none;
 
     color: #e5e5e5;
 
@@ -8356,7 +8356,7 @@ dl dd
 }
 .vlt-page-title--style-4 .vlt-page-title__subtitle
 {
-    font-size: 20px; 
+    font-size: 20px;
 
     max-width: 500px;
     margin-top: 40px;
@@ -8402,7 +8402,7 @@ dl dd
     display: -ms-flexbox;
     display:         flex;
 
-    min-height: 55px; 
+    min-height: 55px;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -8415,7 +8415,7 @@ dl dd
 .vlt-partner img
 {
     -webkit-transition: opacity 300ms;
-            transition: opacity 300ms; 
+            transition: opacity 300ms;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -8465,7 +8465,7 @@ dl dd
 .vlt-pricing-table__price
 {
     font-size: 70px;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: .8;
 
     display: -webkit-inline-box;
@@ -8484,7 +8484,7 @@ dl dd
 .vlt-pricing-table__price .currency
 {
     font-size: 26px;
-    line-height: 1; 
+    line-height: 1;
 
     margin-right: 3px;
 
@@ -8495,7 +8495,7 @@ dl dd
 .vlt-pricing-table__price .period
 {
     font-size: 20px;
-    line-height: 1; 
+    line-height: 1;
 
     margin-left: 5px;
 
@@ -8508,7 +8508,7 @@ dl dd
     margin: 0;
     padding: 0;
 
-    list-style-type: none; 
+    list-style-type: none;
 
     text-align: left;
 }
@@ -8522,7 +8522,7 @@ dl dd
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-            flex-direction: row; 
+            flex-direction: row;
 
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -8545,7 +8545,7 @@ dl dd
 
     color: #fff;
     border-radius: 50%;
-    background-color: #bcbcbc; 
+    background-color: #bcbcbc;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -8599,7 +8599,7 @@ dl dd
 
     color: #fff;
     border-radius: 50%;
-    background-color: #e82e31; 
+    background-color: #e82e31;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -8629,7 +8629,7 @@ dl dd
 -------------------------------------------- */
 .vlt-progress-bar__title
 {
-    font-size: 18px; 
+    font-size: 18px;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -8652,7 +8652,7 @@ dl dd
 {
     position: relative;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     width: 100%;
     height: 3px;
@@ -8685,7 +8685,7 @@ dl dd
 
 .vlt-section-title--style-1 .vlt-section-title__text
 {
-    font-size: 20px; 
+    font-size: 20px;
 
     margin-top: 35px;
 }
@@ -8726,7 +8726,7 @@ dl dd
 .vlt-service__link
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     left: 0;
 
@@ -8746,7 +8746,7 @@ dl dd
 .vlt-service--style-1 .vlt-service__media
 {
     min-width: 80px;
-    margin-right: 35px; 
+    margin-right: 35px;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -8786,7 +8786,7 @@ dl dd
     display:         inline-flex;
 
     height: 100px;
-    margin-bottom: 35px; 
+    margin-bottom: 35px;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -8825,7 +8825,7 @@ dl dd
 
     background-color: #fff;
     -webkit-box-shadow: inset 0 0 0 1px #d6d6d6;
-            box-shadow: inset 0 0 0 1px #d6d6d6; 
+            box-shadow: inset 0 0 0 1px #d6d6d6;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -8838,7 +8838,7 @@ dl dd
     margin-right: 40px;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #101010;
 
@@ -8873,7 +8873,7 @@ dl dd
 .vlt-service--style-3 .vlt-service__icon
 {
     font-size: 16px;
-    line-height: 1; 
+    line-height: 1;
 
     color: #fff;
 }
@@ -8931,7 +8931,7 @@ dl dd
             flex-direction: column;
 
     width: 100%;
-    height: 100%; 
+    height: 100%;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -9002,7 +9002,7 @@ dl dd
 
     margin-right: 40px;
 
-    color: #101010; 
+    color: #101010;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -9024,7 +9024,7 @@ dl dd
 {
     position: relative;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     -webkit-transition: -webkit-transform 300ms;
             transition: -webkit-transform 300ms;
@@ -9036,7 +9036,7 @@ dl dd
     -webkit-transition: -webkit-transform 300ms;
             transition: -webkit-transform 300ms;
             transition:         transform 300ms;
-            transition:         transform 300ms, -webkit-transform 300ms; 
+            transition:         transform 300ms, -webkit-transform 300ms;
 
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
@@ -9057,7 +9057,7 @@ dl dd
     height: 100%;
 
     -webkit-transition: background-color 300ms;
-            transition: background-color 300ms; 
+            transition: background-color 300ms;
 
     color: #fff;
     background-color: rgba(16, 16, 16, .4);
@@ -9078,7 +9078,7 @@ dl dd
 .vlt-service-box__link
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     left: 0;
 
@@ -9087,7 +9087,7 @@ dl dd
 }
 .vlt-service-box__icon
 {
-    font-size: 32px; 
+    font-size: 32px;
 
     margin-bottom: 10px;
 }
@@ -9132,7 +9132,7 @@ dl dd
 .vlt-simple-image__mask
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     bottom: 0;
     left: 100%;
@@ -9152,7 +9152,7 @@ dl dd
             transform: skewX(-10deg);
     -webkit-transform-origin: bottom;
         -ms-transform-origin: bottom;
-            transform-origin: bottom; 
+            transform-origin: bottom;
 
     background-color: #fff;
 }
@@ -9162,7 +9162,7 @@ dl dd
 .vlt-simple-link
 {
     font-size: 18px;
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 1.1;
 
     position: relative;
@@ -9184,7 +9184,7 @@ dl dd
 }
 .vlt-simple-link i
 {
-    font-size: 80%; 
+    font-size: 80%;
 
     display: inline-block;
 
@@ -9203,7 +9203,7 @@ dl dd
     line-height: 1.1;
 
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -9241,7 +9241,7 @@ dl dd
     display: -ms-inline-flexbox;
     display:         inline-flex;
 
-    cursor: pointer; 
+    cursor: pointer;
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
@@ -9286,7 +9286,7 @@ dl dd
 -------------------------------------------- */
 .vlt-stroke-text
 {
-    font-weight: 700; 
+    font-weight: 700;
     line-height: 1.15;
 
     margin: 0;
@@ -9314,7 +9314,7 @@ dl dd
 .vlt-stroke-text a
 {
     -webkit-transition: background-position 500ms;
-            transition: background-position 500ms; 
+            transition: background-position 500ms;
 
     color: inherit;
     background-image: -webkit-gradient(linear, right top, left top, from(currentColor), color-stop(50%, currentColor), color-stop(50%, transparent));
@@ -9345,7 +9345,7 @@ dl dd
 -------------------------------------------- */
 .vlt-styled-list--style-1 li
 {
-    font-size: 20px; 
+    font-size: 20px;
 
     display: -webkit-box;
     display: -webkit-flex;
@@ -9374,7 +9374,7 @@ dl dd
 
     color: #fff;
     border-radius: 50%;
-    background-color: #e82e31; 
+    background-color: #e82e31;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -9403,7 +9403,7 @@ dl dd
     display: -webkit-flex;
     display: -ms-flexbox;
     display:         flex;
-            flex-direction: row; 
+            flex-direction: row;
 
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -9422,7 +9422,7 @@ dl dd
 
     content: '';
 
-    background-color: #e82e31; 
+    background-color: #e82e31;
 
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
@@ -9469,7 +9469,7 @@ dl dd
 }
 .vlt-tabs a:hover
 {
-    opacity: 1; 
+    opacity: 1;
     color: inherit;
 }
 .vlt-tabs li.is-active a
@@ -9493,7 +9493,7 @@ dl dd
     top: 0;
     left: 0;
 
-    overflow: hidden; 
+    overflow: hidden;
 
     width: 100%;
     height: 100%;
@@ -9517,7 +9517,7 @@ dl dd
         -ms-transform-origin: center left;
             transform-origin: center left;
 
-    opacity: 0; 
+    opacity: 0;
 
     -o-object-fit: cover;
        object-fit: cover;
@@ -9542,7 +9542,7 @@ dl dd
 .vlt-team-list a
 {
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -9560,13 +9560,13 @@ dl dd
 {
     .vlt-team-list a
     {
-        width: 120px; 
+        width: 120px;
         height: 120px;
     }
 }
 .vlt-team-list a img
 {
-    z-index: -1; 
+    z-index: -1;
 
     -webkit-transition: -webkit-transform 200ms;
             transition: -webkit-transform 200ms;
@@ -9608,7 +9608,7 @@ dl dd
 
 .vlt-team-member__socials a:hover
 {
-    opacity: .8; 
+    opacity: .8;
     color: inherit;
 }
 
@@ -9652,7 +9652,7 @@ dl dd
     -webkit-transition: -webkit-transform 300ms;
             transition: -webkit-transform 300ms;
             transition:         transform 300ms;
-            transition:         transform 300ms, -webkit-transform 300ms; 
+            transition:         transform 300ms, -webkit-transform 300ms;
     -webkit-transform: translateY(100%);
         -ms-transform: translateY(100%);
             transform: translateY(100%);
@@ -9701,7 +9701,7 @@ dl dd
     -webkit-transition: -webkit-transform 300ms;
             transition: -webkit-transform 300ms;
             transition:         transform 300ms;
-            transition:         transform 300ms, -webkit-transform 300ms; 
+            transition:         transform 300ms, -webkit-transform 300ms;
     -webkit-transform: translateX(-100%);
         -ms-transform: translateX(-100%);
             transform: translateX(-100%);
@@ -9724,7 +9724,7 @@ dl dd
 {
     font-size: 26px;
 
-    opacity: 0; 
+    opacity: 0;
     color: #fff;
 }
 
@@ -9746,7 +9746,7 @@ dl dd
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
-    opacity: 0; 
+    opacity: 0;
     background-color: rgba(232, 46, 49, .9);
 
     -webkit-box-align: center;
@@ -9770,7 +9770,7 @@ dl dd
 {
     margin-top: 35px;
 
-    opacity: 0; 
+    opacity: 0;
     color: #fff;
 }
 
@@ -9797,7 +9797,7 @@ dl dd
 {
     font-size: 20px;
 
-    opacity: 0; 
+    opacity: 0;
     color: #fff;
 }
 
@@ -9805,7 +9805,7 @@ dl dd
 {
     margin-top: 8px;
 
-    opacity: 0; 
+    opacity: 0;
     color: #fff;
 }
 
@@ -9813,7 +9813,7 @@ dl dd
 {
     margin-top: 25px;
 
-    opacity: 0; 
+    opacity: 0;
     color: #fff;
 }
 
@@ -9836,7 +9836,7 @@ dl dd
     -webkit-transition: opacity 300ms;
             transition: opacity 300ms;
 
-    opacity: 0; 
+    opacity: 0;
     background-color: rgba(16, 16, 16, .3);
 
     -webkit-box-pack: center;
@@ -9890,7 +9890,7 @@ dl dd
 }
 .vlt-testimonial__avatar
 {
-    overflow: hidden; 
+    overflow: hidden;
 
     max-width: 120px;
     margin-right: 35px;
@@ -9974,7 +9974,7 @@ dl dd
 }
 .vlt-testimonial--style-3 .vlt-testimonial__content
 {
-    font-weight: normal; 
+    font-weight: normal;
 
     margin-top: 30px;
 }
@@ -10006,7 +10006,7 @@ dl dd
 .vlt-types-list
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     left: 0;
 
@@ -10044,7 +10044,7 @@ dl dd
     -webkit-transition: opacity 500ms;
             transition: opacity 500ms;
 
-    opacity: 0; 
+    opacity: 0;
     background-color: #101010;
 }
 .vlt-types-background__image img
@@ -10056,7 +10056,7 @@ dl dd
     width: 100%;
     height: 100%;
 
-    opacity: .6; 
+    opacity: .6;
 
     -o-object-fit: cover;
        object-fit: cover;
@@ -10081,7 +10081,7 @@ dl dd
 .vlt-types-list::after
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
 
     width: 1px;
@@ -10142,7 +10142,7 @@ dl dd
 {
     .vlt-types-list .vlt-types-list__item
     {
-        width: 100%; 
+        width: 100%;
         height: 180px;
     }
 }
@@ -10161,7 +10161,7 @@ dl dd
     padding: 0 30px;
 
     -webkit-transition: opacity 500ms;
-            transition: opacity 500ms; 
+            transition: opacity 500ms;
     text-align: center;
 
     color: #fff;
@@ -10169,7 +10169,7 @@ dl dd
 .vlt-types-list .vlt-types-list__item .vlt-types-list__background
 {
     position: absolute;
-    z-index: -1; 
+    z-index: -1;
     top: 0;
     left: 0;
 
@@ -10197,7 +10197,7 @@ dl dd
     width: 100%;
     height: 100%;
 
-    opacity: .6; 
+    opacity: .6;
 
     -o-object-fit: cover;
        object-fit: cover;
@@ -10243,7 +10243,7 @@ dl dd
     display: -webkit-inline-flex;
     display: -ms-inline-flexbox;
     display:         inline-flex;
-            flex-direction: row; 
+            flex-direction: row;
 
     -webkit-box-align: center;
     -webkit-align-items: center;
@@ -10268,7 +10268,7 @@ dl dd
     line-height: 1;
 
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 
     display: -webkit-inline-box;
     display: -webkit-inline-flex;
@@ -10304,7 +10304,7 @@ dl dd
     -webkit-transition: -webkit-transform 300ms;
             transition: -webkit-transform 300ms;
             transition:         transform 300ms;
-            transition:         transform 300ms, -webkit-transform 300ms; 
+            transition:         transform 300ms, -webkit-transform 300ms;
 
     border: 2px solid currentColor;
     border-radius: 50%;
@@ -10324,7 +10324,7 @@ dl dd
 .vlt-video-button a:hover i
 {
     -webkit-transition-delay: 150ms;
-            transition-delay: 150ms; 
+            transition-delay: 150ms;
     -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
             transform: scale(1.5);
@@ -10351,7 +10351,7 @@ dl dd
     padding: 40px 45px 40px 50px;
 
     -webkit-transition: background-color 300ms;
-            transition: background-color 300ms; 
+            transition: background-color 300ms;
 
     border-top: 1px solid #d6d6d6;
     border-bottom: 1px solid #d6d6d6;
@@ -10392,7 +10392,7 @@ dl dd
 .vlt-wanted-position__link
 {
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     top: 0;
     left: 0;
 
@@ -10402,7 +10402,7 @@ dl dd
 .vlt-wanted-position__category
 {
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     -webkit-flex-basis: 30%;
     -ms-flex-preferred-size: 30%;
@@ -10423,7 +10423,7 @@ dl dd
     font-weight: 700;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #101010;
 
@@ -10435,7 +10435,7 @@ dl dd
 {
     .vlt-wanted-position__position
     {
-        margin-top: 15px; 
+        margin-top: 15px;
 
         -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
@@ -10447,7 +10447,7 @@ dl dd
     font-weight: 700;
 
     -webkit-transition: color 300ms;
-            transition: color 300ms; 
+            transition: color 300ms;
 
     color: #101010;
 }
@@ -10455,7 +10455,7 @@ dl dd
 {
     .vlt-wanted-position__time
     {
-        margin-top: 15px; 
+        margin-top: 15px;
 
         -webkit-flex-basis: 100%;
         -ms-flex-preferred-size: 100%;
@@ -10465,7 +10465,7 @@ dl dd
 .vlt-wanted-position__icon
 {
     font-size: 16px;
-    line-height: 1; 
+    line-height: 1;
 
     color: #fff;
 }
