@@ -142,11 +142,11 @@ header.boxed .header-margin-mini{
 
 
 ul.social-icon{
-  /* float:right; */
+  float:right;
 }
 
 ul.social-icon a{
-  /* float:right; */
+  float:right;
   font-size:15px;
   border-bottom:0;
   color:black;
@@ -594,7 +594,7 @@ input{
   color:#000000;
   font-weight:500;
   line-height:40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Swansea', sans-serif;
   margin-bottom:10px;
   font-size:13px;
   padding-left:15px;
@@ -610,7 +610,7 @@ input.button-submit{
   background:#f8f7f7;
   font-weight:500;
   border:0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Swansea', sans-serif;
   color:#000000;
   float:right;
   font-weight:900;
@@ -631,7 +631,7 @@ textarea{
   background:#f8f7f7;
   color:#000000;
   font-size:13px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Swansea', sans-serif;
   font-weight:500;
   margin-bottom:10px;
   padding:0 0 0 15px;
