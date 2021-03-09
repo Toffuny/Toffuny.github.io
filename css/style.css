@@ -646,3 +646,13 @@ textarea{
 }
 
 textarea:focus{background:#f4f4f4; height:250px;}
+
+
+
+/* CUSTOM */
+@media screen and (max-width: 641px) {
+  #face{
+    width: 50px;
+    height: 50px;
+  }
+}
