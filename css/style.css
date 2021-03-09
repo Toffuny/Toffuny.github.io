@@ -652,7 +652,7 @@ textarea:focus{background:#f4f4f4; height:250px;}
 /* CUSTOM */
 @media screen and (max-width: 641px) {
   #face{
-    width: 300px;
+    width: 280px;
     height: 400px;
   }
 }
