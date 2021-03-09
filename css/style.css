@@ -655,4 +655,8 @@ textarea:focus{background:#f4f4f4; height:250px;}
     width: 280px;
     height: 400px;
   }
+
+  header {
+    width: 50%
+  }
 }
