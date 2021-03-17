@@ -656,7 +656,7 @@ textarea:focus{background:#f4f4f4; height:250px;}
     height: 400px;
   }
 
-  header.boxed {
+  .boxed {
     width: 50%
   }
 }
