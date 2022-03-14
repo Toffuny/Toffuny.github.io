@@ -1,3 +1,30 @@
+@font-face {
+  font-family: "Gotham Black";
+  src: url('fonts/Gotham-Black.eot');
+  src: url('fonts/Gotham-Black.eot') format('embedded-opentype'),
+       url('fonts/gothamblack-webfont.woff2') format('woff2'),
+       url('fonts/gothamblack-webfont.woff') format('woff'),
+       url('fonts/Gotham-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Swansea";
+  src: url('fonts/Swansea-q3pd.eot');
+  src: url('fonts/Swansea-q3pd.eot') format('embedded-opentype'),
+       url('fonts/swansea-q3pd-webfont.woff2') format('woff2'),
+       url('fonts/swansea-q3pd-webfont.woff') format('woff'),
+       url('fonts/Swansea-q3pd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Swansea bold";
+  src: url('fonts/Swansea-D0ox.eot');
+  src: url('fonts/Swansea-D0ox.eot') format('embedded-opentype'),
+       url('fonts/swansea-d0ox-webfont.woff2') format('woff2'),
+       url('fonts/swansea-d0ox-webfont.woff') format('woff'),
+       url('fonts/Swansea-D0ox.ttf') format('truetype');
+}
+
 body{
   font-family: 'Gotham Black', sans-serif;
   font-size:14px;
