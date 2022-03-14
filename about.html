@@ -4,13 +4,14 @@
 <head>
 
   <meta charset="utf-8">
-  <title>Tiffany Truong</title>
+  <title>About - Tiffany Truong</title>
   <meta name="description" content="Portfolio of Tiffany Truong">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="Tiffany Zhang">
 
   <!-- Logo -->
   <link rel="icon" type="image/png" href="assets/img/Icons/logo2.png" />
+
 <!--Style-->
 
   <link rel="stylesheet" href="css/reset.css">
@@ -26,28 +27,32 @@
 
 <body>
 
+<!--Preloader-->
+
+<div class="opacity-nav">
+
+        <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+        </div>
+
+    <ul class="menu-fullscreen">
+      <li><a class="ajax-link" href="index">Home</a></li>
+      <li><a class="ajax-link" href="work">Projects</a></li>
+      <li><a class="ajax-link" href="about">About</a></li>
+      <!-- <li><a class="ajax-link" href="contact.html">Contact</a></li> -->
+    </ul>
+
+</div>
+
 
   <!--Header-->
-  <header class="boxed" id="header-white">
+  <header id="fullscreen">
 
-    <div class="header-margin">
+    <div class="logo"><a class="ajax-link" href="index"><img src="assets/img/Icons/logo2.png" height="40" width="40" style="padding-top:20px; padding-left: 100px;" /></a></div>
 
-      <div class="logo"><a class="ajax-link" href="index"><img src="assets/img/Icons/logo2.png" height="40" width="40" style="padding-top:20px;"/></a></div>
-      <ul class="header-nav">
-        <li id="mobilehide"><a class="ajax-link" href="about">About ↓</a></li>
-        <li><a class="ajax-link" href="work">Work ←</a></li>
-        <li id="mobilehide"><a href="mailto:zhangtfany@gmail.com">Contact ↗</a></li>
-      </ul>
-
-      <ul class="social-icon">
-        <div class="social-index">
-        <li><a href="http://instagram.com/zhangtfany"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/tiffanytruong2"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="https://www.twitter.com/#!/zhangtfany"><i class="fa fa-twitter"></i></a></li>
+        <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
         </div>
-      </ul>
-
-    </div>
 
   </header>
 
@@ -65,8 +70,6 @@
           <div class="one-column">
             <!-- <img src="assets/img/Face/pose.gif" height="550" width="400"/> -->
             <img src="assets/img/Face/PS_face.gif" height="550" width="400" id="face"/>
-
-
           </div>
 
 
@@ -81,12 +84,8 @@
 
             <br><br>
 
-            <a href="https://drive.google.com/file/d/1T2bharOON4K_gJTR12NC8rDzJK3Oxhos/view?usp=sharing">Resume</a>
-
-            <br><br>
-
             <!-- Tiffany spends the bulk of her time doing <span style="color:red;">social media ad design</span> and <span style="color:red;">company branding</span> -->
-            Currently at <a href="http://oloiinc.com" style="color: red;">Oloi</a> doing <a href="oloi" style="color:red;">social media ad</a> and <a href="oloi" style="color:red;">web design</a>
+            Currently at <a href="http://oreilly.com" style="color: red;">O'Reilly</a> doing <a href="oreillymarketing" style="color:red;">marketing</a> and <a href="oreillyweb" style="color:red;">web</a> design
             <br><br>
             Contact: <a href="mailto:zhangtfany@gmail.com"><span style="color: red;">zhangtfany@gmail.com</span></a>
             <br><br>
@@ -98,15 +97,12 @@
 
 
             </p>
-
           </div>
-          <br><br>
 
 
         </div>
 
         <div class="clear"></div>
-
 
 
 
@@ -117,9 +113,6 @@
   <!--Home Sidebar-->
 
 <div id="ajax-sidebar"></div>
-
-
-
 
 
 <!--Scripts-->

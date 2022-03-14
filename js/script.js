@@ -2,6 +2,19 @@ $(function() {
 
 
 /*-------------------------------------------
+Load Page
+---------------------------------------------*/
+
+	$('body').waitForImages({
+		finished: function() {
+				Website();
+				$('body').jKit();
+		},
+		waitForAll: true
+	});
+
+
+/*-------------------------------------------
 Ajax link page transitions
 ---------------------------------------------*/
 
@@ -155,7 +168,7 @@ $(document).ready(function(){
 	setTimeout( function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
-            strings: ["confusion", "'... idk but I'll figure it out'"],
+            strings: ["Toffu ", "Tiffany "],
             typeSpeed: 100,
             backDelay: 500,
             loop: false,
