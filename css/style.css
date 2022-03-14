@@ -234,7 +234,9 @@ header.boxed .header-margin-mini{
   width:90%;
   margin:0 auto;
 }
-
+.mobile-header-margin {
+  display:none;
+}
 
 ul.social-icon{
   float:right;
@@ -360,7 +362,7 @@ CONTENT
 .two-column-home{
   width:60%;
   position:relative;
-  float:right;
+  float:left;
   column-count: 2;
   column-gap: 40px;
 }
@@ -748,3 +750,12 @@ textarea:focus{background:#f4f4f4; height:250px;}
 
 
 /* CUSTOM */
+@media screen and (max-width: 600px) {
+
+
+ .bottom-right{
+   position: fixed;
+   bottom: 50px;
+   right: 70px;
+ }
+}
