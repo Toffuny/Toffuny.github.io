@@ -1,181 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
 
-  <meta charset="utf-8">
-  <title>Tiffany Truong</title>
-  <meta name="description" content="Portfolio of Tiffany Truong">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="author" content="Tiffany Zhang">
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Tiffany Truong</title>
+	<meta content="Tiffany Truong portfolio " name="description" property="og:description">
 
-  <!-- Logo -->
-  <link rel="icon" type="image/png" href="assets/img/Icons/logo2.png" />
+	<!-- Link to the relevant stylesheet -->
+	<link href="css/style.css" rel="stylesheet">
 
-<!--Style-->
-
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-responsive.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <script src="https://kit.fontawesome.com/0dde2ddd3d.js" crossorigin="anonymous"></script>
 
 </head>
 
+
 <body>
 
-<!--Preloader-->
-<!--
-<div class="opacity-nav">
-
-    <ul class="menu-fullscreen">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="about-us.html">About us</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-
-</div> -->
+	<!-- Loading-Screen -->
+	<div class="loading"></div>
+	<!-- Loading-Screen -->
 
 
-  <!--Header-->
-  <header class="boxed" id="header-white">
+	<!-- Heading Section Begins -->
+	<section class="header">
+		<div class="column-left">
+			<h2><a href="about" class="text-light">About <i class="fa-solid fa-arrow-right"></i></a> <a href="#projects" class="text-light">Work <i class="fa-solid fa-arrow-down"></i></a></h2>
+		</div>
+		<div class="column-main">
+			<div class="column-right header-contact">
+        <a href="http://twitter.com/#!/zhangtfany" class="text-light"><i class="fa-brands fa-twitter"></i></a>
+				<a href="http://instagram.com/zhangtfany" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+        <a href="http://linkedin.com/in/tiffanytruong2" class="text-light"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:zhangtfany@gmail.com" class="text-light"><i class="fa-solid fa-envelope"></i></a>
 
-    <div class="header-margin">
-
-    <div class="logo"><a class="ajax-link" href="index"><img src="assets/img/Icons/logo2.png" height="40" width="40" style="padding-top:20px;" /></a></div>
-      <ul class="header-nav">
-        <li><a class="ajax-link" href="about">About →</a></li>
-        <li id="mobilehide"><a class="ajax-link" href="work">Work ↓</a></li>
-        <li id="mobilehide"><a href="mailto:zhangtfany@gmail.com">Contact ↗</a></li>
-      </ul>
-
-      <ul class="social-icon">
-        <div class="social-index">
-          <li><a href="http://instagram.com/zhangtfany"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/tiffanytruong2"><i class="fa fa-linkedin"></i></a></li>
-          <li><a href="https://www.twitter.com/#!/zhangtfany"><i class="fa fa-twitter"></i></a></li>
-      </ul>
-
-    </div>
-
-  </header>
-
-  <div class="clear"></div>
-
-  <!--Content-->
-
-  <div class="content" id="ajax-content">
-
-
-        <div class="text-intro" id="site-type">
-
-          <h1><span style="color: red;">Hi</span> I'm</h1>
-          <h1 class="typewrite"><span>Tiffany</span></h1>
-          <p>Fueled by food and pretty typography
-            <br>
-          Constantly switches between 'I got this' and 'wtf is happening'</p>
-          <p> You can check out my work <a href="work">here</a> :)</p>
-
-        </div>
-
-
-  <!--Portfolio grid-->
-
-  <!-- <ul class="portfolio-grid">
-
-
-    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-      <img src="img/portfolio/1.jpg">
-        <a class="ajax-link" href="single.html">
-          <div class="grid-hover">
-            <h1>Single</h1>
-            <p>Branding</p>
-          </div>
-        </a>
-    </li>
-
-    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-      <img src="img/portfolio/5.jpg">
-        <a class="ajax-link" href="single.html">
-          <div class="grid-hover">
-            <h1>Single</h1>
-            <p>Branding</p>
-          </div>
-        </a>
-    </li>
-
-    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-      <img src="img/portfolio/2.jpg">
-        <a class="ajax-link" href="single.html">
-          <div class="grid-hover">
-            <h1>Single</h1>
-            <p>Branding</p>
-          </div>
-        </a>
-    </li>
-
-    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-      <img src="img/portfolio/3.jpg">
-        <a class="ajax-link" href="single.html">
-          <div class="grid-hover">
-            <h1>Single</h1>
-            <p>Branding</p>
-          </div>
-        </a>
-    </li>
-
-    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-      <img src="img/portfolio/4.jpg">
-        <a class="ajax-link" href="single.html">
-          <div class="grid-hover">
-            <h1>Single</h1>
-            <p>Branding</p>
-          </div>
-        </a>
-    </li>
-
-    <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
-      <img src="img/portfolio/6.jpg">
-        <a class="ajax-link" href="single.html">
-          <div class="grid-hover">
-            <h1>Single</h1>
-            <p>Branding</p>
-          </div>
-        </a>
-    </li>
-
-  </ul>
-
-  </div>
-
-  <div id="ajax-sidebar"></div> -->
+			</div>
+		</div>
+	</section>
+	<!-- Heading section ends. -->
 
 
 
-<!--Scripts-->
 
-  <script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.min.js"></script>
-	<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
-  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
-  <script src="js/typed.js" type="text/javascript"></script>
-  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
-  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-  <script src="js/jquery.jkit.1.2.16.min.js"></script>
 
-  <script src="js/script.js" type="text/javascript"></script>
 
-	<script>
-    $('#button').on('click', function() {
-      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
-    // Animation complete.
-    });
-  </script>
+						<!-- Portfolio begins  -->
+
+			<!-- Each of the following sections contains a left column and a main cloumn -->
+
+					<!-- First section begins  -->
+	<section class="tools">
+		<div class="column-main">
+			<div class="column-main-container-large">
+				<h1 class="emphasis">HI I'M <span style="color:red;">TIFFANY</span> </h1>
+        <!-- <img src="assets/img/Face/peek_gif.gif" height="100px" width="100px" alt=" Face in gif form" /> -->
+			</div>
+		</div>
+	</section>
+					<!-- First section ends  -->
+
+
+					<!-- Second section begins  -->
+	<!-- <section class="tools">
+		<div class="column-main">
+			<div class="column-main-container-large">
+<p>
+  Fueled by food, pretty typography, and constantly rewatching the same 5 shows <i class="fa-regular fa-face-smile"></i>
+</p>
+			</div>
+		</div>
+	</section> -->
+					<!-- Second section ends  -->
+
+
+
+					<!-- Third section begins  -->
+	<section class="tools">
+		<div class="column-left">
+			<h2 class="emphasis highlight">WORK</h2>
+		</div>
+		<div class="column-main" id="projects">
+			<div class="column-main-container-large">
+
+           <div class="hover-title"><h1><a href="oreillyweb" class="text-light">O'Reilly Media (Web</a>/ <a href="oreillymarketing" class="text-light">Marketing)</a><br></h1></div>
+             <div class="hover-image"><img src="assets/img/O'Reilly/Web/CODN/CODN-fadein.gif" /></div>
+           <div class="hover-title"><h1> <a href="cod" class="text-light">Call of Duty Mobile</a> <br /></h1></div>
+             <div class="hover-image"><img src="assets/img/COD/COD3_Square.gif" /></div>
+           <div class="hover-title"><h1><a href="fanime" class="text-light">FanimeCon</a> <br /></h1></div>
+             <div class="hover-image"><img src="assets/img/fanime/Assemblage.jpg" /></div>
+           <div class="hover-title"><h1><a href="video" class="text-light">Motion graphics</a> <br /></h1></div>
+             <div class="hover-image"><img src="assets/img/Video/AI_Motion_Graphic_short.gif" /></div>
+           <div class="hover-title"><h1><a href="oloi" class="text-light">Oloi</a> <br /></h1></div>
+             <div class="hover-image"><img src="assets/img/Oloi/Website Screens/Screencaps/OloiSite_Homepage.png" /></div>
+           <div class="hover-title"><h1><a href="yas" class="text-light">Yas</a> <br /></h1></div>
+             <div class="hover-image"><img src="assets/img/FoundrySix/BeerAd.gif" /></div>
+           <div class="hover-title"><h1><a href="3d" class="text-light">3D</a> <br /></h1></div>
+             <div class="hover-image"><img src="assets/img/3D/Phone_UI_animation (1).gif" /></div>
+        </h1>
+			</div>
+		</div>
+	</section>
+					<!-- Third section ends  -->
+
+						<!-- Portfolio ends  -->
+
+					<!-- Footer section begins  -->
+	<section class="footer">
+		<div class="column-left">
+		</div>
+		<div class="column-main">
+      <h2 class="highlight emphasis">FIND ME:</h2>
+      <a href="http://twitter.com/#!/zhangtfany" class="text-light"><i class="fa-brands fa-twitter"></i></a>
+      <a href="http://instagram.com/zhangtfany" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+      <a href="http://linkedin.com/in/tiffanytruong2" class="text-light"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:zhangtfany@gmail.com" class="text-light"><i class="fa-solid fa-envelope"></i></a>
+		</div>
+	</section>
+					<!-- Footer section ends  -->
 
 
 </body>
+
 </html>
