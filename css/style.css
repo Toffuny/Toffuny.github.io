@@ -5,11 +5,15 @@ FLEXBOX
 -------------------------
 */
 
-@font-face { font-family: Gotham; src: url('fonts/GothamBlack.otf'); }
-@font-face { font-family: Gotham; font-weight: bold; src: url('GothamBlack.otf');}
+@font-face {
+  font-family: GothamBlack;
+  src: url("fonts/Gotham Black Regular.ttf");
+}
 
-@font-face { font-family: Swansea; src: url('fonts/Swansea-q3pd.ttf'); }
-@font-face { font-family: Swansea; font-weight: regular; src: url('fonts/Swansea-q3pd.ttf');}
+@font-face {
+  font-family: Swansea;
+  src: url("fonts/Swansea.ttf");
+}
 
 
 body {
@@ -25,7 +29,7 @@ body {
 }
 
 .emphasis {
-  font-family: "Gotham Black", Arial, sans-serif;
+  font-family: "GothamBlack", Arial, sans-serif;
   font-weight: 400;
   /* font-size: 18px; */
 }
