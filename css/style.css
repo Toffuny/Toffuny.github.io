@@ -586,6 +586,9 @@ RESPONSIVE
   .portfolio-grid li {
     margin-left: -50px;
   }
+  .mobile-half {
+    width: 50%;
+  }
 
   .link {
     font-size: 23px;
