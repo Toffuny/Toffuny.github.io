@@ -200,12 +200,12 @@ ul {
   list-style: none;
 }
 
-.portfolio-grid{
+/* .portfolio-grid{
   width:100%;
   position:relative;
   margin: 15px auto;
   overflow:hidden;
-}
+} */
 
 .prev-next{
   width:100%;
@@ -398,7 +398,6 @@ RESPONSIVE
 */
 /*Links*/
 @media (max-width: 1700px) {
-  /*"View Work"-Links break from here*/
   .link {
     margin-right: 60px;
     transform: translateY(25px);
@@ -407,6 +406,12 @@ RESPONSIVE
 
   .link-line-break {
     display: block;
+  }
+  .portfolio-grid{
+    width:100%;
+    position:relative;
+    margin: 15px auto;
+    overflow:hidden;
   }
 }
 @media all and (max-width: 1024px) {
@@ -570,6 +575,16 @@ RESPONSIVE
     width: 100%;
     white-space: nowrap;
     /*overflow: hidden;*/
+  }
+
+  .portfolio-grid{
+    width:100%;
+    position:relative;
+    margin: 0px auto;
+    overflow:auto;
+  }
+  .portfolio-grid li {
+    margin-left: -50px;
   }
 
   .link {
