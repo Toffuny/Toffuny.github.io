@@ -396,6 +396,14 @@ MAKE IT
 RESPONSIVE
 -------------------------
 */
+/*Desktop */
+@media (min-width: 40em) {
+  .same-line-img img {
+    height: 530px;
+    width: 530px;
+    margin-bottom: 15px;
+  }
+}
 /*Links*/
 @media (max-width: 1700px) {
   .link {
