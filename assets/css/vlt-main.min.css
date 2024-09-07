@@ -2,15 +2,40 @@
     --pf: Kanit, sans-serif;      
 }
 
+/* CUSTOM CSS */
 body {
-    cursor: url('cursor.png'), auto;   
+    cursor: url('https://i.imgur.com/JXHhLCF.png'), auto;   
+    
 }
 
 h5 {
-    font-family: "Noto Sans Hanunoo", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+/* .blob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 650px;
+    border-radius: 100%;
+    background-image: linear-gradient(#1100ff 10%, #ff00f2);
+    filter: blur(250px);
+    transition: all 450ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: -9999;
+} */
+
+
+
+
+
 
 @-webkit-keyframes vlt_animate_icon_top_right {
     49% {
@@ -5038,7 +5063,7 @@ dl dd {
 .vlt-work--style-6 .vlt-work__category,
 .vlt-work--style-6 .vlt-work__title {
     opacity: 0;
-    color: inherit
+    color: #729763;
 }
 
 .vlt-work--style-2 .vlt-work__category a:hover,
