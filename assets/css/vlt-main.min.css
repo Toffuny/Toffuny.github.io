@@ -4,7 +4,7 @@
 
 /* CUSTOM CSS */
 body {
-    cursor: url('https://i.imgur.com/JXHhLCF.png'), auto;   
+    cursor: url('https://i.imgur.com/OQgBKEi.png'), auto;   
     
 }
 
@@ -13,7 +13,7 @@ h5 {
     font-weight: 400;
     font-style: normal;
 }
-.additional-info {
+.additional-info, .name-title:hover {
     color: #729763;
 }
 
