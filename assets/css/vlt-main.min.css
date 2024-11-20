@@ -13,7 +13,7 @@ h5 {
     font-weight: 400;
     font-style: normal;
 }
-.additional-info, .name-title:hover {
+.additional-info, .name-title {
     color: #729763;
 }
 
@@ -5126,7 +5126,7 @@ dl dd {
 }
 
 .vlt-work--style-4 .vlt-work__media img {
-    opacity: 0.8;
+    opacity: 1;
 }
 
 .vlt-work--style-4 .vlt-work__meta {
