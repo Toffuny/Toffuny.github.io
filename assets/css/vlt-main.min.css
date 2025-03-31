@@ -6977,7 +6977,7 @@ dl dd {
 
 .vlt-page-title--style-4 .vlt-page-title__subtitle {
     font-size: 20px;
-    max-width: 500px;
+    /* max-width: 500px; */
     margin-top: 40px
 }
 
