@@ -77,6 +77,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-light300i {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -85,6 +86,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-reg400 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -93,6 +95,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-reg400i {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -101,6 +104,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-med500 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -109,6 +113,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-med500i {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -117,6 +122,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-semi600 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -125,6 +131,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-semi600i {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -133,6 +140,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-bold700 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -141,6 +149,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-bold700i {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -149,6 +158,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-ebold800 {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -157,6 +167,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+
 .open-sans-ebold800i {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -166,9 +177,87 @@
     "wdth" 100;
 }
 
-.mr-de-haviland-regular {
-  font-family: "Mr De Haviland", cursive;
+
+
+
+
+
+
+.lora-reg400 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-reg400i {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+.lora-med500 {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-med500i {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-semi600 {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-semi600i {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-bold700 {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.lora-bold700i {
+  font-family: "Lora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+.sarina-regular {
+  font-family: "Sarina", cursive;
   font-weight: 400;
   font-style: normal;
 }
-

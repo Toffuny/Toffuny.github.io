@@ -1927,7 +1927,7 @@ textarea.w-input,textarea.w-select{
     --text-color--text-error\<deleted\|variable-4a51c5d2-820c-a0d9-b49e-0e5d273c964f\>:var(--base-color-system--error-red-dark\<deleted\|variable-f7a8b234-8033-a5d6-4d85-0326277c2bf8\>);
     --_font-sizes---section-padding-left-right:3%;
     --_font-sizes---font-sizes-in-vw:7vw;
-    --_font-family---tertiary-font:"Mr De Haviland",sans-serif;
+    --_font-family---tertiary-font:"Sarina",cursive;
     --_font-sizes---1-25-rem:1.25rem;
     --_font-sizes---26-2-rem:26.2rem;
     --_font-sizes---1-rem:1rem;
@@ -2635,7 +2635,7 @@ figcaption{
 .hero-span{
     font-family:var(--_font-family---tertiary-font);
     cursor:pointer;
-    font-weight:400;
+    font-weight:600;
     text-decoration:underline
 }
 .text-1-25rem{
@@ -2739,7 +2739,7 @@ figcaption{
     color: #000000;
 }
 .heading-5rem-proj-title{
-    font-family:var(--_font-family---secondary-font);
+    font-family:var(--_font-family---tertiary-font);
     font-size:var(--_font-sizes---5-rem);
     text-transform:capitalize;
     font-weight:600;
@@ -2944,7 +2944,7 @@ figcaption{
     line-height:1
 }
 .heading-contact-large{
-    font-family:Mr De Haviland,sans-serif;
+    font-family: Sarina,cursive;
     font-size:4.5rem;
     font-weight:400;
     line-height:1
