@@ -2696,7 +2696,7 @@ figcaption{
     grid-column-gap:11.25rem;
     grid-row-gap:11.25rem;
     flex-flow:column;
-    display:flex
+    display:center;
 }
 .offer-heading-wrapper{
     max-width:1523px
