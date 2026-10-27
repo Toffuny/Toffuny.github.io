@@ -3515,6 +3515,15 @@ figcaption {
     color: #000000;
 }
 
+.heading-5rem-parallel {
+    font-family: var(--_font-family---secondary-font);
+    font-size: var(--_font-sizes---2-5rem);
+    text-transform: none;
+    font-weight: 500;
+    line-height: 1.3;
+    color: #000000;
+}
+
 .heading-5rem-proj-title {
     font-family: var(--_font-family---tertiary-font);
     font-size: var(--_font-sizes---5-rem);
