@@ -3359,7 +3359,7 @@ figcaption {
     text-align: center;
     max-width: 75.3rem;
     margin-left: auto;
-    font-weight: 500;
+    font-weight: 800;
     line-height: 1.1;
     transform: translate(0)
 }
@@ -3387,6 +3387,118 @@ figcaption {
     text-decoration: underline;
     color: #729763;
 }
+
+/* ABOUT SECTION (MANIFESTO) */
+/* ABOUT SECTION (MANIFESTO) */
+.about {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: clamp(4rem, 10vw, 11rem) clamp(1rem, 3vw, 4rem);
+}
+
+.about-inner {
+    position: relative;
+    width: 100%;
+    max-width: 120rem;
+    /* ~1920px: matches where the font size hits its max */
+    margin: 0 auto;
+}
+
+.about-text {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    text-align: center;
+    text-wrap: balance;
+    overflow-wrap: break-word;
+    font-family: var(--_font-family---secondary-font);
+    /* Open Sans */
+    /* font-stretch: 75%; */
+    /* font-variation-settings: "wdth" 75; */
+    font-weight: 600;
+    font-size: clamp(2.6rem, 5.8vw, 7rem);
+    /* desktop: scales with screen width */
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.about-word {
+    transition: opacity 0.15s linear;
+}
+
+/* Meow Script accent words: same size as the surrounding text */
+.about-meow {
+    font-family: var(--_font-family---tertiary-font);
+    /* Meow Script */
+    font-size: 1em;
+    /* matches the rest of the paragraph at every breakpoint */
+    font-weight: 600;
+    /* Meow Script only has one weight */
+    letter-spacing: 0;
+    /* the paragraph's negative tracking would crush script letters */
+    line-height: 1;
+    transition: opacity 0.15s linear;
+    color: #729763;
+}
+
+/* inline images (sized in em, so they scale with the text) */
+.about-img {
+    display: inline-block;
+    vertical-align: -0.14em;
+    margin: 0 0.18em;
+    height: 1.05em;
+    width: 1.4em;
+    /* fixed box so lines don't shift while images load */
+    line-height: 0;
+    transition: opacity 0.15s linear;
+}
+
+.about-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    /* overrides the global img { max-width: 100% } */
+    object-fit: cover;
+    /* crops to fill the box instead of stretching */
+    object-position: center;
+    border-radius: 0.12em;
+}
+
+/* tablet */
+@media screen and (max-width: 991px) {
+    .about-text {
+        font-size: clamp(2.2rem, 7vw, 4.5rem);
+        line-height: 1.08;
+        letter-spacing: -0.025em;
+    }
+}
+
+/* large phone */
+@media screen and (max-width: 767px) {
+    .about-text {
+        font-size: clamp(1.9rem, 8vw, 3.25rem);
+        line-height: 1.12;
+    }
+
+    .about-img {
+        margin: 0 0.12em;
+    }
+}
+
+/* small phone */
+@media screen and (max-width: 479px) {
+    .about-text {
+        font-size: clamp(1.7rem, 8.6vw, 2.5rem);
+        letter-spacing: -0.02em;
+    }
+}
+
+
+
 
 .text-1-25rem {
     font-size: var(--_font-sizes---1-25-rem);
@@ -4832,6 +4944,8 @@ figcaption {
     display: flex;
     overflow: hidden
 }
+
+
 
 @media screen and (max-width:991px) {
     body {
@@ -6308,5 +6422,49 @@ figcaption {
 @media screen and (max-width: 767px) {
     .item {
         width: 100%;
+    }
+}
+
+/* ---- Tighter spacing: hero between hero & about ---- */
+
+/* Desktop */
+.hero-section {
+    min-height: 72svh;
+    /* was 100svh: this was most of the gap */
+    height: auto;
+    /* cancels the old fixed 500px at ≤900px */
+}
+
+.hero-content {
+    padding-bottom: 2vh;
+}
+
+.about {
+    padding-top: clamp(1.5rem, 4vw, 4.5rem);
+}
+
+/* Tablet */
+@media screen and (max-width: 991px) {
+    .hero-section {
+        min-height: 60svh;
+    }
+
+    .about {
+        padding-top: clamp(1rem, 3vw, 3.5rem);
+    }
+}
+
+/* Phone: hero hugs its content, no forced height */
+@media screen and (max-width: 767px) {
+    .hero-section {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding-bottom: 1.5rem;
+    }
+
+    .about {
+        padding-top: 1rem;
     }
 }
