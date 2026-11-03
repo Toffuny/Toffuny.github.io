@@ -2557,7 +2557,7 @@ textarea.w-select {
 }
 
 .w-layout-blockcontainer {
-    max-width: 940px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
     display: block
@@ -3275,7 +3275,7 @@ figcaption {
 }
 
 .container {
-    width: 100%;
+    width: 70%;
     max-width: 114rem
 }
 
@@ -3738,7 +3738,7 @@ figcaption {
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
-    display: flex
+    /* display: flex */
 }
 
 .contact-small-text {
@@ -3900,7 +3900,7 @@ figcaption {
     grid-row-gap: 5rem;
     border-top: 2px solid var(--cream);
     letter-spacing: 1px;
-    flex-flow: column;
+    flex-flow: row;
     justify-content: space-between;
     align-items: center;
     min-width: 100%;
@@ -4404,8 +4404,9 @@ figcaption {
 }
 
 .contact-list__list {
-    flex-flow: column;
-    display: flex
+    flex-flow: row;
+    display: flex;
+    gap: 70px;
 }
 
 .contact-list__item {
