@@ -2523,7 +2523,7 @@ textarea.w-select {
     --text-color--text-error\<deleted\|variable-4a51c5d2-820c-a0d9-b49e-0e5d273c964f\>: var(--base-color-system--error-red-dark\<deleted\|variable-f7a8b234-8033-a5d6-4d85-0326277c2bf8\>);
     --_font-sizes---section-padding-left-right: 3%;
     --_font-sizes---font-sizes-in-vw: 7vw;
-    --_font-family---tertiary-font: "Sarina", cursive;
+    --_font-family---tertiary-font: "Meow Script", cursive;
     --_font-sizes---1-25-rem: 1.25rem;
     --_font-sizes---26-2-rem: 26.2rem;
     --_font-sizes---1-rem: 1rem;
@@ -3765,7 +3765,7 @@ figcaption {
 }
 
 .heading-contact-large {
-    font-family: Sarina, cursive;
+    font-family: Meow Script, cursive;
     font-size: 4.5rem;
     font-weight: 400;
     line-height: 1;
