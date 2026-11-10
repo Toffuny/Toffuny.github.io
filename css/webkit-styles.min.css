@@ -3771,7 +3771,8 @@ figcaption {
     font-size: var(--_font-sizes---1-25-rem);
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 1.25
+    line-height: 1.25;
+color: #000000;
 }
 
 .title-2-5rem.link-licences {
