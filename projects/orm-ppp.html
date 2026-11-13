@@ -23,13 +23,54 @@
         visibility: hidden !important;
       }
     </style> -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link
-  href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Meow+Script&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
-  rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Meow+Script&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap"
+    rel="stylesheet">
   <link href="../assets/images/Misc/logo.png" rel="shortcut icon" type="image/x-icon" />
   <link href="../assets/images/Misc/logo.png" rel="apple-touch-icon" />
+  <style id="em-ppp-layout">
+    /* em-ppp images: left column = em-ppp-1/2/3, right column = the -v2 images,
+       three small images per row. Kept here so it always loads after the main stylesheet. */
+    .projects-collection-list .em-ppp-row {
+      grid-column: 1 / -1;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-column-gap: 1rem;
+      grid-row-gap: 1rem;
+      align-items: start;
+      width: 100%;
+      min-width: 0;
+    }
+    .em-ppp-group {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-column-gap: .5rem;
+      grid-row-gap: .5rem;
+      align-items: start;
+      width: 100%;
+      min-width: 0;
+    }
+    .em-ppp-group .project-images-collection-item {
+      width: 100% !important;
+      min-width: 0;
+      max-width: 100% !important;
+      overflow: hidden;
+      transform: none !important;
+    }
+    .em-ppp-group .projects-images {
+      display: block;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      object-fit: contain;
+      transform: none !important;
+    }
+    @media screen and (max-width: 479px) {
+      .em-ppp-row { grid-template-columns: minmax(0, 1fr); }
+    }
+  </style>
 </head>
 
 <body>
@@ -284,7 +325,7 @@ a,
                 <div class="project-description-wrapper">
                   <div class="text-1rem text-weight-medium proj-page-head">OVERVIEW</div>
                   <div class="text-1rem">O'Reilly Media launched a new sales campaign advertising
-                    discounted yearly subscription rates for 15 countries around the world.</div>
+                    discounted yearly subscription rates for selected countries around the world.</div>
                 </div>
                 <div class="role-year-industry-wrapper">
                   <div class="role-wrapper">
@@ -332,10 +373,31 @@ a,
                       </div>
                     </a>
                   </div> -->
+
                 <div id="w-node-_34a4e9c3-5111-5997-9ba5-858b41882a10-99af3704"
                   class="projects-image-collection-list-wrapper w-dyn-list">
                   <!-- <script type="text/x-wf-template" id="wf-template-34a4e9c3-5111-5997-9ba5-858b41882a11">%3Cdiv%20role%3D%22listitem%22%20class%3D%22project-images-collection-item%20w-dyn-item%20w-dyn-repeater-item%22%3E%3Cimg%20src%3D%22https%3A%2F%2Fcdn.prod.website-files.com%2F68beb8aa15c673b2dce33a54%2F68cc700e06f1d8cc05e4f578_sebastien-lavalaye-pW7mcsG-rOA-unsplash.avif%22%20loading%3D%22lazy%22%20style%3D%22-webkit-transform%3Atranslate3d(0%2C%200%2C%200)%20scale3d(1.1%2C%201.1%2C%201)%20rotateX(0)%20rotateY(0)%20rotateZ(0)%20skew(0%2C%200)%3B-moz-transform%3Atranslate3d(0%2C%200%2C%200)%20scale3d(1.1%2C%201.1%2C%201)%20rotateX(0)%20rotateY(0)%20rotateZ(0)%20skew(0%2C%200)%3B-ms-transform%3Atranslate3d(0%2C%200%2C%200)%20scale3d(1.1%2C%201.1%2C%201)%20rotateX(0)%20rotateY(0)%20rotateZ(0)%20skew(0%2C%200)%3Btransform%3Atranslate3d(0%2C%200%2C%200)%20scale3d(1.1%2C%201.1%2C%201)%20rotateX(0)%20rotateY(0)%20rotateZ(0)%20skew(0%2C%200)%22%20data-w-id%3D%226a435b8e-89dd-69b0-0222-5ade61b2381c%22%20alt%3D%22%22%20class%3D%22projects-images%22%2F%3E%3C%2Fdiv%3E</script> -->
                   <div role="list" class="projects-collection-list w-dyn-items">
+                                        <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/Concept pitch/ppp-concept-1a-1.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                                                            <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/Concept pitch/ppp-concept-1b-1.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                                                            <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/Concept pitch/ppp-concept-1a-2.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                                                            <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/Concept pitch/ppp-concept-1b-2.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
                     <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
                       <img src="../assets/images/O'Reilly/PPP/ppp-screenshot-1.png" loading="lazy"
                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
@@ -365,6 +427,8 @@ a,
                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                         data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
                     </div> -->
+                    <div class="em-ppp-row">
+                    <div class="em-ppp-group em-ppp-left">
                     <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
                       <img src="../assets/images/O'Reilly/PPP/em-ppp-1.png" loading="lazy"
                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
@@ -379,6 +443,25 @@ a,
                       <img src="../assets/images/O'Reilly/PPP/em-ppp-3.png" loading="lazy"
                         style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
                         data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                    </div>
+                    <div class="em-ppp-group em-ppp-right">
+                    <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/em-ppp-1-v2.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                    <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/em-ppp-2-v2.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                    <div role="listitem" class="project-images-collection-item w-dyn-item w-dyn-repeater-item">
+                      <img src="../assets/images/O'Reilly/PPP/em-ppp-3-v2.png" loading="lazy"
+                        style="-webkit-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0, 0) scale3d(1.1, 1.1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+                        data-w-id="6a435b8e-89dd-69b0-0222-5ade61b2381c" alt="" class="projects-images" />
+                    </div>
+                    </div>
                     </div>
                   </div>
                   <div class="w-dyn-hide w-dyn-empty">
@@ -462,7 +545,7 @@ a,
                     </div>
                     <div class="contact-list__col-year"></div>
                   </a> -->
-                  <!-- <a data-directional-hover-item="" href="http://x.com/@zhangtfany" target="_blank"
+      <!-- <a data-directional-hover-item="" href="http://x.com/@zhangtfany" target="_blank"
                     class="contact-list__item w-inline-block">
                     <div class="social-info">
                       <div class="ellisp-big"></div>
@@ -474,7 +557,7 @@ a,
                     </div>
                     <div class="contact-list__col-year"></div>
                   </a> -->
-                  <!-- <a data-directional-hover-item="" href="#" target="_blank" class="contact-list__item w-inline-block">
+      <!-- <a data-directional-hover-item="" href="#" target="_blank" class="contact-list__item w-inline-block">
                     <div class="social-info">
                       <div class="ellisp-big"></div>
                       <div class="text-block">(email)</div>
@@ -486,7 +569,7 @@ a,
                     <div class="contact-list__col-year"></div>
                   </a> -->
 
-                <!-- </div>
+      <!-- </div>
               </div>
               <div class="contact-list__border"></div>
             </div>
@@ -495,18 +578,21 @@ a,
       </section> -->
       <section class="footer">
         <div class="w-layout-blockcontainer container w-container">
-          <div class="footer-nest"><a href="../index" aria-current="page" class="footer-brand w-inline-block w--current">
+          <div class="footer-nest"><a href="../index" aria-current="page"
+              class="footer-brand w-inline-block w--current">
               <div class="brand-text-footer">Tiffany Truong</div>
             </a>
             <div id="w-node-_5943a04a-cda4-0fce-6d41-75f323d9bf4e-5a34becf" class="footer-links-parent">
               <div class="footers-link-group"><a href="../index#about" class="links w-inline-block">
                   <div class="links-text">About</div>
                   <div class="links-text">About</div>
-                </a><a data-w-id="30004566-7123-49cb-8376-953d9a92f7d2" href="../index#work" class="links w-inline-block">
+                </a><a data-w-id="30004566-7123-49cb-8376-953d9a92f7d2" href="../index#work"
+                  class="links w-inline-block">
                   <div class="links-text">Work</div>
                   <div class="links-text">Work</div>
                 </a>
-                <a data-w-id="0b2f9dcc-4705-d409-ac2b-5f1310f2ae05" href="http://instagram.com/zhangtfany" class="links w-inline-block">
+                <a data-w-id="0b2f9dcc-4705-d409-ac2b-5f1310f2ae05" href="http://instagram.com/zhangtfany"
+                  class="links w-inline-block">
                   <div class="links-text">Instagram</div>
                   <div class="links-text">Instagram</div>
                 </a>
